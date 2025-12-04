@@ -1,7 +1,11 @@
 package com.example.musica;
 
 import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
 import javafx.stage.Stage;
+
+import java.io.IOException;
 
 public class Musica extends Application {
 
@@ -10,7 +14,12 @@ public class Musica extends Application {
     }
 
     @Override
-    public void start(Stage primaryStage) {
-
+    public void start(Stage primaryStage) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("musica.fxml"));
+        Scene scene = new Scene(fxmlLoader.load());
+        primaryStage.setScene(scene);
+        primaryStage.setTitle("Musica");
+        primaryStage.setResizable(false);
+        primaryStage.show();
     }
 }

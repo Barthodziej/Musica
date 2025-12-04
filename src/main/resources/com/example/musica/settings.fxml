@@ -4,14 +4,14 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.Tooltip?>
 <?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Region?>
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
 <?import org.kordamp.ikonli.javafx.FontIcon?>
-<?import javafx.scene.layout.Region?>
 
-
-<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.musica.SettingsController" >
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.musica.SettingsController">
    <children>
       <VBox prefHeight="200.0" prefWidth="100.0" spacing="10.0">
          <children>
@@ -20,18 +20,21 @@
                   <Label text="Media path: " />
                   <Region HBox.hgrow="ALWAYS" />
                   <HBox>
-                     <TextField fx:id="mediaPathField" onAction="#saveMediaPath" promptText="Insert path here or..." />
+                     <TextField fx:id="mediaPathField" onAction="#saveMediaPath" promptText="Insert path here or...">
+                        <tooltip>
+                           <Tooltip fx:id="mediaPathTooltip" />
+                        </tooltip></TextField>
                      <Button mnemonicParsing="false" onAction="#browseMedia">
                         <graphic>
-                           <FontIcon iconLiteral="fas-folder-open"/>
+                           <FontIcon iconLiteral="fas-folder-open" />
                         </graphic>
                      </Button>
                   </HBox>
                   <Button mnemonicParsing="false" onAction="#saveMediaPath">
-                  <graphic>
-                     <FontIcon iconLiteral="fas-save"/>
-                  </graphic>
-               </Button>
+                     <graphic>
+                        <FontIcon iconLiteral="fas-save" />
+                     </graphic>
+                  </Button>
                </children>
             </HBox>
             <HBox alignment="CENTER" spacing="15.0">
@@ -39,16 +42,19 @@
                   <Label text="Data path: " />
                   <Region HBox.hgrow="ALWAYS" />
                   <HBox>
-                     <TextField fx:id="dataPathField" onAction="#saveDataPath" promptText="Insert path here or..." />
+                     <TextField fx:id="dataPathField" onAction="#saveDataPath" promptText="Insert path here or...">
+                        <tooltip>
+                           <Tooltip fx:id="dataPathTooltip" text="Empty Tooltip" />
+                        </tooltip></TextField>
                      <Button mnemonicParsing="false" onAction="#browseData">
                         <graphic>
-                           <FontIcon iconLiteral="fas-folder-open"/>
+                           <FontIcon iconLiteral="fas-folder-open" />
                         </graphic>
                      </Button>
                   </HBox>
                   <Button mnemonicParsing="false" onAction="#saveDataPath">
                      <graphic>
-                        <FontIcon iconLiteral="fas-save"/>
+                        <FontIcon iconLiteral="fas-save" />
                      </graphic>
                   </Button>
                </children>

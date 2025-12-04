@@ -1,0 +1,1221 @@
+2025-11-28 13:03:20,880 [   2753]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Vcs.Operations.Popup.VcsNameSeparator' template presentation. Showing its action-id instead
+2025-11-28 13:03:20,880 [   2753]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Vcs.Operations.Popup.VcsAware' template presentation. Showing its action-id instead
+2025-11-28 13:03:20,881 [   2754]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Vcs.Operations.Popup.Vcs.Providers' template presentation. Showing its action-id instead
+2025-11-28 13:03:20,881 [   2754]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Vcs.Operations.Popup.NonVcsAware' template presentation. Showing its action-id instead
+2025-11-28 13:03:20,881 [   2754]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Vcs.Log.HighlightersActionGroup' template presentation. Showing its action-id instead
+2025-11-28 13:03:20,887 [   2760]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'XDebugger.Code.Toolbar' template presentation. Showing its action-id instead
+2025-11-28 13:03:20,897 [   2770]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'CWMTelephonyGroup' template presentation. Showing its action-id instead
+2025-11-28 13:03:20,907 [   2780]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'com.intellij.flyway.structure.new' template presentation. Showing its action-id instead
+2025-11-28 13:03:20,909 [   2782]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'FileTemplateSeparatorGroup' template presentation. Showing its action-id instead
+2025-11-28 13:03:20,915 [   2788]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'DatabaseView.NewGroup' template presentation. Showing its action-id instead
+2025-11-28 13:03:20,921 [   2794]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'DatabaseView.Ddl.AddObject' template presentation. Showing its action-id instead
+2025-11-28 13:03:20,930 [   2803]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'MigrationMenu1' template presentation. Showing its action-id instead
+2025-11-28 13:03:20,946 [   2819]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'MarkSourceRootGroup' template presentation. Showing its action-id instead
+2025-11-28 13:03:20,948 [   2821]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'InspectCodeActionInPopupMenus' template presentation. Showing its action-id instead
+2025-11-28 13:03:20,958 [   2831]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'EditorPopupMenuAnalyze' template presentation. Showing its action-id instead
+2025-11-28 13:03:20,968 [   2841]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'ViewToolbarActionsGroup' template presentation. Showing its action-id instead
+2025-11-28 13:03:20,983 [   2856]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'RemoteExternalToolsGroup' template presentation. Showing its action-id instead
+2025-11-28 13:03:20,986 [   2859]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Vcs.Specific' template presentation. Showing its action-id instead
+2025-11-28 13:03:20,986 [   2859]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Vcs.MainMenu' template presentation. Showing its action-id instead
+2025-11-28 13:03:21,000 [   2873]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Git.MainMenu' template presentation. Showing its action-id instead
+2025-11-28 13:03:21,000 [   2873]   WARN - #c.i.o.k.i.u.ActionsTreeUtil - No text in 'Git.MainMenu.FileActions' template presentation. Showing its action-id instead
+2025-11-28 13:03:22,586 [   4459]   WARN - #c.i.s.c.i.StationSocketConnectionLoop - Discovery connection failed with NoSuchFileException (/run/user/1000/jb.station.sock)
+JCEF_V(03:23:687): Found cef_server binary '/opt/intellij-idea-ultimate-edition/jbr/lib/cef_server' via System.getProperty('java.home')=/opt/intellij-idea-ultimate-edition/jbr
+JCEF_V(03:23:688): Java is started via native launcher. Found cef_server path /opt/intellij-idea-ultimate-edition/jbr/lib/cef_server (via system propety)
+2025-11-28 13:03:24,051 [   5924]   WARN - #c.i.s.c.i.StationSocketConnectionLoop - RecentProjects connection failed with NoSuchFileException (/run/user/1000/jb.station.sock)
+2025-11-28 13:08:43,631 [ 325504]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2025-11-28 13:09:44,794 [ 386667]   WARN - #o.j.i.maven - updateMavenProjects started: incremental=true, MavenProjectAware.reloadProject, sync selected 1 0 Musica
+2025-11-28 13:09:49,095 [ 390968]   WARN - #o.j.i.maven - updateMavenProjects finished: incremental=true, MavenProjectAware.reloadProject, sync selected 1 0 Musica
+2025-11-28 13:09:54,891 [ 396764]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2025-11-28 13:11:36,879 [ 498752]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@a72fc7e
+2025-11-28 13:11:37,184 [ 499057]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 12:11:37.184484 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 13:13:23,150 [ 605023]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2025-11-28 13:16:59,473 [ 821346]   WARN - #o.j.i.maven - updateMavenProjects started: incremental=true, MavenProjectAware.reloadProject, sync selected 1 0 Musica
+2025-11-28 13:17:00,878 [ 822751]   WARN - #o.j.i.maven - updateMavenProjects finished: incremental=true, MavenProjectAware.reloadProject, sync selected 1 0 Musica
+2025-11-28 13:17:40,419 [ 862292]   WARN - #o.j.i.maven - updateMavenProjects started: incremental=true, MavenProjectAware.reloadProject, sync selected 1 0 Musica
+2025-11-28 13:17:42,150 [ 864023]   WARN - #o.j.i.maven - updateMavenProjects finished: incremental=true, MavenProjectAware.reloadProject, sync selected 1 0 Musica
+2025-11-28 13:18:10,331 [ 892204]   WARN - #o.j.i.maven - updateMavenProjects started: incremental=true, MavenProjectAware.reloadProject, sync selected 1 0 Musica
+2025-11-28 13:18:10,630 [ 892503]   WARN - #o.j.i.maven - updateMavenProjects finished: incremental=true, MavenProjectAware.reloadProject, sync selected 1 0 Musica
+2025-11-28 13:18:27,629 [ 909502]   WARN - #o.j.i.reposearch - Exception getting data from provider org.jetbrains.idea.packagesearch.api.PackageSearchApiClientService@4cea0abd
+java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1066)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56)
+	at java.net.http/jdk.internal.net.http.Http1Exchange.sendHeadersAsync(Http1Exchange.java:312)
+	at java.net.http/jdk.internal.net.http.Exchange.lambda$responseAsyncImpl0$8(Exchange.java:581)
+	at java.net.http/jdk.internal.net.http.Exchange.checkFor407(Exchange.java:452)
+	at java.net.http/jdk.internal.net.http.Exchange.lambda$responseAsyncImpl0$9(Exchange.java:585)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950)
+	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:585)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:428)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:420)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:435)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:477)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950)
+	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:467)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:355)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at kotlinx.coroutines.internal.SoftLimitedDispatcher$Worker.run(SoftLimitedDispatcher.kt:130)
+	at kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1183)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: java.nio.channels.UnresolvedAddressException
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:137)
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:145)
+	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:842)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:865)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
+	... 27 more
+2025-11-28 13:18:27,822 [ 909695]   WARN - #o.j.i.reposearch - Suppressed a frequent exception logged for the 2nd time: null
+2025-11-28 13:18:28,344 [ 910217]   WARN - #o.j.i.reposearch - Suppressed a frequent exception logged for the 5th time: null
+2025-11-28 13:18:28,883 [ 910756]   WARN - #o.j.i.reposearch - Suppressed a frequent exception logged for the 10th time: null
+2025-11-28 13:19:18,106 [ 959979]   WARN - #o.j.i.maven - updateMavenProjects started: incremental=true, MavenProjectAware.reloadProject, sync selected 1 0 Musica
+2025-11-28 13:19:18,961 [ 960834]   WARN - #o.j.i.maven - updateMavenProjects finished: incremental=true, MavenProjectAware.reloadProject, sync selected 1 0 Musica
+2025-11-28 13:19:24,957 [ 966830]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2025-11-28 13:20:25,574 [1027447]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 12:20:25.573888 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 13:23:52,553 [1234426]   WARN - org.apache.velocity.deprecation - configuration key 'resource.loader' has been deprecated in favor of 'resource.loaders'
+2025-11-28 13:23:52,554 [1234427]   WARN - org.apache.velocity.deprecation - configuration key 'includes.resource.loader.instance' has been deprecated in favor of 'resource.loader.includes.instance'
+2025-11-28 13:28:18,548 [1500421]   WARN - #o.j.i.maven - updateMavenProjects started: incremental=true, MavenProjectAware.reloadProject, sync selected 1 0 Musica
+2025-11-28 13:28:22,009 [1503882]   WARN - #o.j.i.maven - updateMavenProjects finished: incremental=true, MavenProjectAware.reloadProject, sync selected 1 0 Musica
+2025-11-28 13:31:57,632 [1719505]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - Sequence is empty.
+java.util.NoSuchElementException: Sequence is empty.
+	at kotlin.sequences.SequencesKt___SequencesKt.first(_Sequences.kt:116)
+	at org.jetbrains.completion.full.line.local.generation.ChunkTrimmer$Companion.trimLines(ChunkTrimmer.kt:29)
+	at org.jetbrains.completion.full.line.local.generation.ChunkTrimmer$Companion.trim(ChunkTrimmer.kt:18)
+	at org.jetbrains.completion.full.line.local.generation.RecentContextRetriever$retrieveChunks$2$1.invoke(RecentContextRetriever.kt:80)
+	at org.jetbrains.completion.full.line.local.generation.RecentContextRetriever$retrieveChunks$2$1.invoke(RecentContextRetriever.kt:70)
+	at com.intellij.openapi.application.rw.InternalReadAction.insideReadAction(InternalReadAction.kt:111)
+	at com.intellij.openapi.application.rw.InternalReadAction.tryReadCancellable$lambda$4(InternalReadAction.kt:101)
+	at com.intellij.openapi.application.rw.CancellableReadActionKt.cancellableReadActionInternal$lambda$3$lambda$2$lambda$1(cancellableReadAction.kt:32)
+	at com.intellij.platform.locking.impl.NestedLocksThreadingSupport.tryRunReadAction(NestedLocksThreadingSupport.kt:826)
+	at com.intellij.openapi.application.impl.ApplicationImpl.tryRunReadAction(ApplicationImpl.java:1221)
+	at com.intellij.openapi.application.rw.CancellableReadActionKt.cancellableReadActionInternal$lambda$3$lambda$2(cancellableReadAction.kt:30)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtilService.runActionAndCancelBeforeWrite(ProgressIndicatorUtilService.java:73)
+	at com.intellij.openapi.progress.util.ProgressIndicatorUtils.runActionAndCancelBeforeWrite(ProgressIndicatorUtils.java:152)
+	at com.intellij.openapi.application.rw.CancellableReadActionKt.cancellableReadActionInternal(cancellableReadAction.kt:28)
+	at com.intellij.openapi.application.rw.InternalReadAction.tryReadCancellable(InternalReadAction.kt:100)
+	at com.intellij.openapi.application.rw.InternalReadAction.tryReadAction(InternalReadAction.kt:86)
+	at com.intellij.openapi.application.rw.InternalReadAction.readLoop(InternalReadAction.kt:73)
+	at com.intellij.openapi.application.rw.InternalReadAction.access$readLoop(InternalReadAction.kt:15)
+	at com.intellij.openapi.application.rw.InternalReadAction$runReadAction$6.invokeSuspend(InternalReadAction.kt:52)
+	at com.intellij.openapi.application.rw.InternalReadAction$runReadAction$6.invoke(InternalReadAction.kt)
+	at com.intellij.openapi.application.rw.InternalReadAction$runReadAction$6.invoke(InternalReadAction.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:44)
+	at kotlinx.coroutines.BuildersKt__Builders_commonKt.withContext(Builders.common.kt:166)
+	at kotlinx.coroutines.BuildersKt.withContext(Unknown Source)
+	at com.intellij.openapi.application.rw.InternalReadAction.runReadAction(InternalReadAction.kt:50)
+	at com.intellij.openapi.application.rw.PlatformReadWriteActionSupport.executeReadAction(PlatformReadWriteActionSupport.kt:42)
+	at com.intellij.openapi.application.ReadWriteActionSupport.executeReadAction$default(ReadWriteActionSupport.kt:15)
+	at com.intellij.openapi.application.CoroutinesKt.constrainedReadAction(coroutines.kt:66)
+	at com.intellij.openapi.application.CoroutinesKt.readAction(coroutines.kt:33)
+	at org.jetbrains.completion.full.line.local.generation.RecentContextRetriever$retrieveChunks$$inlined$mapNotNull$1$2.emit(Emitters.kt:52)
+	at kotlinx.coroutines.flow.FlowKt__BuildersKt$asFlow$$inlined$unsafeFlow$3.collect(SafeCollector.common.kt:111)
+	at org.jetbrains.completion.full.line.local.generation.RecentContextRetriever$retrieveChunks$$inlined$mapNotNull$1.collect(SafeCollector.common.kt:109)
+	at kotlinx.coroutines.flow.FlowKt__LimitKt$takeWhile$$inlined$unsafeFlow$1.collect(SafeCollector.common.kt:120)
+	at kotlinx.coroutines.flow.FlowKt__CollectionKt.toCollection(Collection.kt:22)
+	at kotlinx.coroutines.flow.FlowKt.toCollection(Unknown Source)
+	at kotlinx.coroutines.flow.FlowKt__CollectionKt.toList(Collection.kt:11)
+	at kotlinx.coroutines.flow.FlowKt.toList(Unknown Source)
+	at kotlinx.coroutines.flow.FlowKt__CollectionKt.toList$default(Collection.kt:11)
+	at kotlinx.coroutines.flow.FlowKt.toList$default(Unknown Source)
+	at org.jetbrains.completion.full.line.local.generation.RecentContextRetriever.retrieveChunks(RecentContextRetriever.kt:86)
+	at org.jetbrains.completion.full.line.local.generation.RecentContextRetriever.getContextIds(RecentContextRetriever.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:146)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.smartContextComposition(FullLineCompletionInputBuilder.kt:73)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.build(FullLineCompletionInputBuilder.kt:56)
+	at org.jetbrains.completion.full.line.impl.providers.LocalFullLineCompletionClient.composeContext(LocalFullLineCompletionClient.kt:48)
+	at org.jetbrains.completion.full.line.impl.providers.LocalFullLineCompletionClient$composeContext$1.invokeSuspend(LocalFullLineCompletionClient.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+2025-11-28 13:31:57,749 [1719622]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - Suppressed a frequent exception logged for the 2nd time: Sequence is empty.
+2025-11-28 13:31:58,404 [1720277]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 12:31:58.403420 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 13:31:59,103 [1720976]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - Suppressed a frequent exception logged for the 5th time: Sequence is empty.
+2025-11-28 13:32:01,717 [1723590]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - Suppressed a frequent exception logged for the 10th time: Sequence is empty.
+2025-11-28 13:33:07,132 [1789005]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 12:33:07.132548 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 13:33:07,250 [1789123]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 12:33:07.250165 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 13:33:07,593 [1789466]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 12:33:07.593321 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 13:33:07,728 [1789601]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - Suppressed a frequent exception logged for the 20th time: Sequence is empty.
+2025-11-28 13:33:07,731 [1789604]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 12:33:07.731021 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 13:33:07,854 [1789727]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 12:33:07.854424 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 13:33:08,717 [1790590]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28
+2025-11-28 13:33:08,717 [1790590]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion]  12:33:08.717672 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 13:37:36,111 [2057984]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 12:37:36.111068 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 13:37:36,351 [2058224]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 12:37:36.351339 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 13:37:36,512 [2058385]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@f9e2ab1
+2025-11-28 13:37:36,588 [2058461]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 12:37:36.588825 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 13:38:06,516 [2088389]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@287823e2
+2025-11-28 13:38:42,956 [2124829]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 12:38:42.955954 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 13:39:00,979 [2142852]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@b9ca44a
+2025-11-28 13:40:23,280 [2225153]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 12:40:23.279957 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 13:40:23,363 [2225236]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 12:40:23.363474 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 13:40:23,707 [2225580]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 12:40:23.707117 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 13:40:31,822 [2233695]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 12:40:31.822305 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 13:40:32,044 [2233917]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 12:40:32.44874 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 13:40:32,273 [2234146]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 12:40:32.273090 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 13:40:32,372 [2234245]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 12:40:32.372842 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 13:40:32,516 [2234389]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 12:40:32.516003 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 13:41:18,739 [2280612]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2025-11-28 13:44:50,715 [2492588]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@2f76a1b6
+2025-11-28 13:44:51,106 [2492979]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 12:44:51.106907 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 13:55:04,698 [3106571]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@6e2c8247
+2025-11-28 13:55:05,152 [3107025]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 12:55:05.151393 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 13:55:08,488 [3110361]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@31085144
+2025-11-28 13:55:08,557 [3110430]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@32c39f67
+2025-11-28 13:55:08,892 [3110765]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 12:55:08.892266 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 13:55:08,991 [3110864]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 12:55:08.991102 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 13:55:09,112 [3110985]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 12:55:09.112788 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 13:56:32,468 [3194341]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@39d85db8
+2025-11-28 13:57:32,333 [3254206]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@78f9893f
+2025-11-28 14:03:25,556 [3607429]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@9bb9812
+2025-11-28 14:04:40,347 [3682220]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@6b100f30
+2025-11-28 14:04:41,958 [3683831]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:04:41.958557 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:05:06,012 [3707885]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:05:06.12591 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:09:20,614 [3962487]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:09:20.614694 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:13:09,317 [4191190]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:13:09.317089 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:13:09,601 [4191474]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28
+2025-11-28 14:13:09,601 [4191474]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion]  13:13:09.601260 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:13:09,852 [4191725]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:13:09.852314 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:13:39,979 [4221852]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2025-11-28 14:13:40,042 [4221915]   WARN - #c.i.p.u.w.JavaConsoleWithProfilerWidget - Cannot attach to process Process[pid=34210, exitValue="not exited"] (pid 34210): VM is unsupported or the application finished fast
+2025-11-28 14:15:41,516 [4343389]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@679fdb70
+2025-11-28 14:15:41,822 [4343695]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:15:41.822454 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:15:42,047 [4343920]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:15:42.47040 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:15:42,500 [4344373]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:15:42.500388 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:15:42,698 [4344571]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:15:42.698461 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:15:42,808 [4344681]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:15:42.808130 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:15:43,147 [4345020]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:15:43.147933 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:21:10,421 [4672294]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:21:10.420981 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:21:10,900 [4672773]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:21:10.900502 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:21:11,016 [4672889]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:21:11.16216 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:23:29,975 [4811848]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@10179d54
+2025-11-28 14:29:10,082 [5151955]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28
+2025-11-28 14:29:10,082 [5151955]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion]  13:29:10.82592 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:29:10,264 [5152137]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:29:10.264619 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:29:10,354 [5152227]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:29:10.354600 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:37:19,820 [5641693]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:37:19.820887 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:37:20,048 [5641921]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:37:20.48247 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:37:20,303 [5642176]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@389e4932
+2025-11-28 14:37:20,410 [5642283]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28
+2025-11-28 14:37:20,410 [5642283]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion]  
+2025-11-28 14:37:20,410 [5642283]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 13:37:20.410133 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:37:21,453 [5643326]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:37:21.453316 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:37:21,695 [5643568]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:37:21.695004 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:37:21,910 [5643783]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:37:21.910566 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:37:22,075 [5643948]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:37:22.75738 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:37:22,362 [5644235]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:37:22.362206 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:37:22,530 [5644403]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:37:22.530382 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:37:22,808 [5644681]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:37:22.808704 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:37:22,974 [5644847]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:37:22.974235 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:37:23,817 [5645690]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:37:23.817799 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:37:24,931 [5646804]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:37:24.931803 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:39:48,129 [5790002]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:39:48.129418 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:42:45,359 [5967232]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@1c4c6490
+2025-11-28 14:42:48,350 [5970223]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@48fe477
+2025-11-28 14:42:49,660 [5971533]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:42:49.660184 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:46:03,054 [6164927]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2025-11-28 14:47:25,440 [6247313]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:47:25.440130 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:47:25,676 [6247549]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:47:25.675931 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:47:25,880 [6247753]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28
+2025-11-28 14:47:25,881 [6247754]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion]  13:47:25.880923 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:47:26,008 [6247881]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:47:26.8007 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:47:28,434 [6250307]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@5e3efb27
+2025-11-28 14:48:11,921 [6293794]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@46d60807
+2025-11-28 14:48:12,254 [6294127]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:48:12.254099 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:48:12,497 [6294370]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:48:12.497415 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:48:12,856 [6294729]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:48:12.856691 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:48:13,211 [6295084]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:48:13.211268 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:48:14,253 [6296126]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@83e8aa7
+2025-11-28 14:48:14,596 [6296469]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:48:14.596118 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:48:14,808 [6296681]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:48:14.808389 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:48:14,940 [6296813]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:48:14.939978 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:48:15,142 [6297015]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:48:15.142251 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:48:15,263 [6297136]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:48:15.263892 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:48:16,414 [6298287]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:48:16.414115 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:48:16,532 [6298405]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:48:16.532275 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:48:16,610 [6298483]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:48:16.610530 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:48:16,830 [6298703]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:48:16.830566 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:48:18,281 [6300154]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:48:18.281177 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:49:20,304 [6362177]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@5e76d344
+2025-11-28 14:49:20,709 [6362582]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:49:20.709908 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:49:22,704 [6364577]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:49:22.704656 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:49:22,827 [6364700]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:49:22.827382 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:49:23,836 [6365709]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:49:23.836186 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:49:24,720 [6366593]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:49:24.720651 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:49:25,062 [6366935]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:49:25.62231 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:49:27,457 [6369330]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@71d3fcaa
+2025-11-28 14:52:03,238 [6525111]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:52:03.238354 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:56:00,778 [6762651]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@725d01bc
+2025-11-28 14:56:11,282 [6773155]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@2d5f16d3
+2025-11-28 14:56:11,719 [6773592]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@a390718
+2025-11-28 14:56:11,884 [6773757]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:56:11.884889 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:56:12,614 [6774487]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:56:12.614538 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:56:12,818 [6774691]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:56:12.818610 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:56:14,650 [6776523]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:56:14.650095 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:56:15,288 [6777161]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:56:15.288012 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:56:15,492 [6777365]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:56:15.492016 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:56:15,618 [6777491]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:56:15.618486 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:56:15,745 [6777618]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:56:15.745137 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:56:16,158 [6778031]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:56:16.158287 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:56:16,243 [6778116]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:56:16.243577 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:56:16,434 [6778307]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:56:16.433989 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:56:16,529 [6778402]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:56:16.529121 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:56:16,635 [6778508]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:56:16.635050 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:56:16,705 [6778578]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 13:56:16.705358 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 14:58:44,133 [6926006]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2025-11-28 14:58:44,197 [6926070]   WARN - #c.i.p.u.w.JavaConsoleWithProfilerWidget - Cannot attach to process Process[pid=40837, exitValue="not exited"] (pid 40837): VM is unsupported or the application finished fast
+2025-11-28 15:03:55,583 [7237456]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:03:55.583403 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:03:58,747 [7240620]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@25b4f537
+2025-11-28 15:03:59,011 [7240884]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:03:59.11342 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:04:59,499 [7301372]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:04:59.499353 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:04:59,632 [7301505]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:04:59.632382 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:04:59,702 [7301575]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:04:59.702235 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:05:30,123 [7331996]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@1bf7c373
+2025-11-28 15:05:30,604 [7332477]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:05:30.604046 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:05:30,747 [7332620]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:05:30.747074 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:05:30,838 [7332711]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:05:30.838881 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:05:30,918 [7332791]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:05:30.918907 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:05:55,091 [7356964]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:05:55.91636 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:05:55,199 [7357072]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:05:55.199280 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:05:55,293 [7357166]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:05:55.293705 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:05:55,688 [7357561]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:05:55.688388 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:05:55,802 [7357675]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:05:55.802369 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:05:56,074 [7357947]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:05:56.74551 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:05:56,168 [7358041]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:05:56.168839 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:05:56,387 [7358260]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:05:56.387742 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:05:56,709 [7358582]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:05:56.709306 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:05:56,884 [7358757]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:05:56.884579 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:05:57,066 [7358939]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:05:57.66588 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:05:57,216 [7359089]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:05:57.216162 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:05:57,325 [7359198]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:05:57.324942 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:05:57,498 [7359371]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:05:57.498786 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:05:58,374 [7360247]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@78e7b965
+2025-11-28 15:06:19,626 [7381499]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@35a6ccfc
+2025-11-28 15:06:20,032 [7381905]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:06:20.32896 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:06:20,159 [7382032]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:06:20.159540 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:06:20,252 [7382125]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:06:20.252719 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:06:20,375 [7382248]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:06:20.375027 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:06:20,597 [7382470]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:06:20.597116 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:06:20,661 [7382534]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:06:20.661204 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:06:21,034 [7382907]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:06:21.34327 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:06:21,173 [7383046]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:06:21.173268 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:06:21,253 [7383126]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:06:21.253581 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:06:21,519 [7383392]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:06:21.519897 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:08:38,799 [7520672]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:08:38.798948 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:08:58,112 [7539985]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:08:58.112544 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:08:58,288 [7540161]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:08:58.288247 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:08:58,889 [7540762]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:08:58.889117 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:08:59,100 [7540973]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:08:59.100303 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:08:59,202 [7541075]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:08:59.202554 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:08:59,297 [7541170]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:08:59.297219 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:08:59,417 [7541290]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:08:59.417482 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:08:59,644 [7541517]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:08:59.644167 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:08:59,711 [7541584]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:08:59.711497 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:08:59,959 [7541832]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:08:59.959788 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:09:00,112 [7541985]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:09:00.112434 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:09:00,197 [7542070]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:09:00.197362 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:11:36,972 [7698845]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:11:36.972637 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:11:37,064 [7698937]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:11:37.64325 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:12:25,550 [7747423]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:12:25.550751 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:15:11,168 [7913041]   WARN - org.apache.velocity.deprecation - configuration key 'resource.loader' has been deprecated in favor of 'resource.loaders'
+2025-11-28 15:15:11,169 [7913042]   WARN - org.apache.velocity.deprecation - configuration key 'includes.resource.loader.class' has been deprecated in favor of 'resource.loader.includes.class'
+2025-11-28 15:30:21,405 [8823278]   WARN - #o.j.i.maven - Maven pulling logger stopped
+java.rmi.ConnectException: Connection refused to host: 127.0.0.1; nested exception is: 
+	java.net.ConnectException: Connection refused
+	at java.rmi/sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:625)
+	at java.rmi/sun.rmi.transport.tcp.TCPChannel.createConnection(TCPChannel.java:217)
+	at java.rmi/sun.rmi.transport.tcp.TCPChannel.newConnection(TCPChannel.java:204)
+	at java.rmi/sun.rmi.server.UnicastRef.invoke(UnicastRef.java:134)
+	at java.rmi/java.rmi.server.RemoteObjectInvocationHandler.invokeRemoteMethod(RemoteObjectInvocationHandler.java:215)
+	at java.rmi/java.rmi.server.RemoteObjectInvocationHandler.invoke(RemoteObjectInvocationHandler.java:160)
+	at jdk.proxy4/jdk.proxy4.$Proxy268.pull(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.intellij.execution.rmi.RemoteUtil.invokeRemote(RemoteUtil.java:155)
+	at com.intellij.execution.rmi.RemoteUtil.access$200(RemoteUtil.java:24)
+	at com.intellij.execution.rmi.RemoteUtil$1MyHandler.lambda$invoke$0(RemoteUtil.java:137)
+	at com.intellij.openapi.util.ClassLoaderUtil.computeWithClassLoader(ClassLoaderUtil.java:30)
+	at com.intellij.execution.rmi.RemoteUtil.executeWithClassLoader(RemoteUtil.java:207)
+	at com.intellij.execution.rmi.RemoteUtil$1MyHandler.invoke(RemoteUtil.java:137)
+	at jdk.proxy4/jdk.proxy4.$Proxy268.pull(Unknown Source)
+	at org.jetbrains.idea.maven.server.MavenServerConnectorImpl.startPullingLogger$lambda$1(MavenServerConnectorImpl.kt:143)
+	at com.intellij.util.concurrency.Propagation.capturePropagationContext$lambda$9(propagation.kt:549)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+	at com.intellij.util.concurrency.SchedulingWrapper$MyScheduledFutureTask.run(SchedulingWrapper.java:280)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:248)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$200(BoundedTaskExecutor.java:27)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.executeFirstTaskAndHelpQueue(BoundedTaskExecutor.java:226)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:249)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:211)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:735)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:732)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:732)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:589)
+	at java.base/sun.nio.ch.Net.connect(Net.java:578)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/java.net.Socket.connect(Socket.java:686)
+	at java.base/java.net.Socket.<init>(Socket.java:555)
+	at java.base/java.net.Socket.<init>(Socket.java:324)
+	at com.intellij.execution.rmi.RemoteServer$1.createSocket(RemoteServer.java:156)
+	at java.rmi/sun.rmi.transport.tcp.TCPEndpoint.newSocket(TCPEndpoint.java:619)
+	... 32 more
+2025-11-28 15:30:21,408 [8823281]   WARN - #o.j.i.maven - Maven pulling logger failed: 1 times
+2025-11-28 15:36:07,178 [9169051]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:36:07.178491 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:36:07,809 [9169682]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@5e0f85da
+2025-11-28 15:36:08,063 [9169936]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@3650e3a5
+2025-11-28 15:36:08,395 [9170268]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:36:08.395709 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:36:08,610 [9170483]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:36:08.610262 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:36:08,695 [9170568]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:36:08.695076 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:47:30,155 [9852028]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@3065851c
+2025-11-28 15:47:30,232 [9852105]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@6472842e
+2025-11-28 15:47:30,674 [9852547]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:47:30.674249 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:47:30,784 [9852657]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:47:30.784222 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:47:31,025 [9852898]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:47:31.25068 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:47:31,286 [9853159]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:47:31.286184 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:47:31,466 [9853339]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:47:31.466381 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:47:31,581 [9853454]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:47:31.581026 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:47:31,721 [9853594]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:47:31.721812
+2025-11-28 15:47:31,722 [9853595]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion]  [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:47:31,828 [9853701]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:47:31.828025 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:48:48,004 [9929877]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:48:48.4523 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:48:48,114 [9929987]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:48:48.114020 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:48:48,356 [9930229]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:48:48.356349 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:51:41,278 [10103151]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:51:41.278308 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:51:41,403 [10103276]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:51:41.403256 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:51:41,538 [10103411]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 14:51:41.538400 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 15:56:42,272 [10404145]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@30e858d
+2025-11-28 15:59:47,509 [10589382]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@483f958e
+2025-11-28 16:05:11,018 [10912891]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 15:05:11.18352 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 16:05:11,184 [10913057]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 15:05:11.184907 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 16:05:11,286 [10913159]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 15:05:11.286270 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 16:05:11,354 [10913227]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 15:05:11.354884 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 16:05:11,482 [10913355]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 15:05:11.482359 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 16:05:11,565 [10913438]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 15:05:11.565892 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 16:05:11,670 [10913543]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 15:05:11.670449 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 16:05:11,873 [10913746]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 15:05:11.873569 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 16:05:11,991 [10913864]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 15:05:11.991831 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 16:05:12,086 [10913959]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 15:05:12.86291 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 16:05:12,215 [10914088]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 15:05:12.215058 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 16:05:12,484 [10914357]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 15:05:12.484331 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 16:05:12,565 [10914438]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 15:05:12.565272 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 16:05:12,742 [10914615]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 15:05:12.742473 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 16:07:52,994 [11074867]   WARN - #o.j.c.f.l.l.s.c.FullLineCompletionInputBuilder - LazyStandaloneCoroutine was cancelled
+java.lang.Throwable: Control-flow exceptions (e.g. this class kotlinx.coroutines.JobCancellationException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:504)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:139)
+	at com.intellij.openapi.diagnostic.Logger.warn(Logger.java:353)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.buildRecentContext(FullLineCompletionInputBuilder.kt:152)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder.access$buildRecentContext(FullLineCompletionInputBuilder.kt:30)
+	at org.jetbrains.completion.full.line.local.suggest.collector.FullLineCompletionInputBuilder$buildRecentContext$1.invokeSuspend(FullLineCompletionInputBuilder.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:98)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:613)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1189)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:778)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:765)
+Caused by: kotlinx.coroutines.JobCancellationException: LazyStandaloneCoroutine was cancelled; job=LazyStandaloneCoroutine{Cancelling}@7fdad7de
+2025-11-28 16:08:44,672 [11126545]   WARN - #o.j.c.f.l.i.p.d.a.n.NativeServerDiagnostic$Companion - [Completion] 2025-11-28 15:08:44.672335 [flcc_grpc_inference_service.cpp:121:prefill] call ended, got an exception 'std::future_error: Broken promise' during execution
+
+2025-11-28 16:11:46,112 [11307985]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2025-11-28 16:12:14,069 [11335942]   WARN - #o.j.k.i.s.r.KotlinCompilerReferenceIndexStorage - kotlin-data-container is not found
+2025-11-28 16:21:36,966 [11898839]   WARN - #c.i.o.v.i.LineStatusTrackerManager - Tracker is being held on dispose by EditorImpl[file:///home/Bartodziej/Projekty/Musica/src/main/java/com/example/musica/library/database/FilesystemLibraryDAO.java]; file: /home/Bartodziej/Projekty/Musica/src/main/java/com/example/musica/library/database/FilesystemLibraryDAO.java
+2025-11-28 16:21:36,966 [11898839]   WARN - #c.i.o.v.i.LineStatusTrackerManager - Tracker is being held on dispose by EditorImpl[LightVirtualFile: /terminal_output]; file: /terminal_output
