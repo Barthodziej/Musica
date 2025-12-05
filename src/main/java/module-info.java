@@ -12,4 +12,6 @@ module com.example.musica {
     opens com.example.musica.library to javafx.fxml;
     exports com.example.musica.config;
     opens com.example.musica.config to javafx.fxml;
+    exports com.example.musica.controllers;
+    opens com.example.musica.controllers to javafx.fxml;
 }

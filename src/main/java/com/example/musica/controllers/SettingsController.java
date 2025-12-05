@@ -1,5 +1,6 @@
-package com.example.musica;
+package com.example.musica.controllers;
 
+import com.example.musica.ApplicationContext;
 import com.example.musica.config.Config;
 import com.example.musica.config.ConfigInitializer;
 import javafx.application.Platform;

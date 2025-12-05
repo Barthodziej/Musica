@@ -1,12 +1,10 @@
-package com.example.musica;
+package com.example.musica.controllers;
 
-import com.example.musica.config.Config;
+import com.example.musica.ApplicationContext;
 import com.example.musica.library.Album;
 import com.example.musica.library.Artist;
 import com.example.musica.library.Track;
-import com.example.musica.library.database.FilesystemLibraryDAO;
 import com.example.musica.library.database.LibraryDAO;
-import com.example.musica.library.database.filesystemlibrary.LibraryPathProviderImpl;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;

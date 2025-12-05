@@ -1,10 +1,7 @@
 package com.example.musica;
 
-import com.example.musica.config.Config;
 import com.example.musica.library.Track;
-import com.example.musica.library.database.FilesystemLibraryDAO;
 import com.example.musica.library.database.LibraryDAO;
-import com.example.musica.library.database.filesystemlibrary.LibraryPathProviderImpl;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

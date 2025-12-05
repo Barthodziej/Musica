@@ -1,4 +1,4 @@
-package com.example.musica;
+package com.example.musica.controllers;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

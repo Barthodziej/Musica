@@ -15,7 +15,7 @@ public class Musica extends Application {
 
     @Override
     public void start(Stage primaryStage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("musica.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("controllers/musica.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
         primaryStage.setScene(scene);
         primaryStage.setTitle("Musica");
