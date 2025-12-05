@@ -3,7 +3,7 @@ package com.example.musica.config;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class ConfigPaths {
+public class ConfigPathProvider {
     public Path rootPath() {
         return Paths.get(".");
     }

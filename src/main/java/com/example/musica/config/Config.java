@@ -7,64 +7,22 @@ import java.util.Scanner;
 
 public class Config {
 
-    public void initialize() throws Exception {
+    ConfigPathProvider configPathProvider;
+    String mediaPath = null;
+    String dataPath = null;
 
-        if (isInitialized()) {
-            throw new Exception("Failed to initialize config. Reason: It is already initialized!");
-        }
 
-        createConfigDirectory();
-        createMediaConfigFile();
-        createDataConfigFile();
-
-    }
-
-    public boolean isInitialized() {
-
-        ConfigPaths configPaths = new ConfigPaths();
-        return configPaths.configDirectoryPath().toFile().exists();
-
-    }
-
-    private void createConfigDirectory() throws Exception {
-
-        ConfigPaths configPaths = new ConfigPaths();
-        File configDirectory = configPaths.configDirectoryPath().toFile();
-
-        if (configDirectory.exists()) {
-            throw new Exception("Failed to create config directory. Reason: It already exists!");
-        }
-
-        if (!configDirectory.mkdir()) {
-            throw new Exception("Failed to create config directory. Reason: Unknown...");
-        }
-
-    }
-
-    private void createMediaConfigFile() throws Exception {
-
-        ConfigPaths configPaths = new ConfigPaths();
-        File mediaConfigFile = configPaths.mediaConfigFilePath().toFile();
-
-        if (mediaConfigFile.exists()) {
-            throw new Exception("Failed to create media config file. Reason: It already exists!");
-        }
-
-        try {
-            if (!mediaConfigFile.createNewFile()) {
-                throw new Exception("Failed to create media config file. Reason: Unknown...");
-            }
-        }
-        catch (IOException e) {
-            throw new Exception("Failed to create media config file. Reason: Unknown...");
-        }
-
+    public Config(ConfigPathProvider configPathProvider) {
+        this.configPathProvider = configPathProvider;
     }
 
     public String loadMediaConfig() throws Exception {
 
-        ConfigPaths configPaths = new ConfigPaths();
-        File mediaConfigFile = configPaths.mediaConfigFilePath().toFile();
+        if (mediaPath != null) {
+            return mediaPath;
+        }
+
+        File mediaConfigFile = configPathProvider.mediaConfigFilePath().toFile();
 
         if (!mediaConfigFile.exists()) {
             throw new Exception("Failed to load media config. Reason: The file does not exist!");
@@ -79,15 +37,15 @@ public class Config {
         }
 
         try (Scanner scanner = new Scanner(mediaConfigFile)) {
-            return scanner.nextLine();
+            mediaPath = scanner.nextLine();
+            return mediaPath;
         }
 
     }
 
     public void saveMediaConfig(String mediaConfig) throws Exception {
 
-        ConfigPaths configPaths = new ConfigPaths();
-        File mediaConfigFile = configPaths.mediaConfigFilePath().toFile();
+        File mediaConfigFile = configPathProvider.mediaConfigFilePath().toFile();
 
         if (!mediaConfigFile.exists()) {
             throw new Exception("Failed to save media config. Reason: The file does not exist!");
@@ -103,6 +61,7 @@ public class Config {
 
         try (FileWriter writer = new FileWriter(mediaConfigFile)) {
             writer.write(mediaConfig);
+            mediaPath = mediaConfig;
         }
         catch (IOException e) {
             throw new Exception("Failed to save media config. Reason: Unknown...");
@@ -110,30 +69,13 @@ public class Config {
 
     }
 
-    private void createDataConfigFile() throws Exception {
-
-        ConfigPaths configPaths = new ConfigPaths();
-        File dataConfigFile = configPaths.dataConfigFilePath().toFile();
-
-        if (dataConfigFile.exists()) {
-            throw new Exception("Failed to create data config file. Reason: It already exists!");
-        }
-
-        try {
-            if (!dataConfigFile.createNewFile()) {
-                throw new Exception("Failed to create data config file. Reason: Unknown...");
-            }
-        }
-        catch (IOException e) {
-            throw new Exception("Failed to create data config file. Reason: Unknown...");
-        }
-
-    }
-
     public String loadDataConfig() throws Exception {
 
-        ConfigPaths configPaths = new ConfigPaths();
-        File dataConfigFile = configPaths.dataConfigFilePath().toFile();
+        if (dataPath != null) {
+            return dataPath;
+        }
+
+        File dataConfigFile = configPathProvider.dataConfigFilePath().toFile();
 
         if (!dataConfigFile.exists()) {
             throw new Exception("Failed to load data config. Reason: The file does not exist!");
@@ -148,15 +90,15 @@ public class Config {
         }
 
         try (Scanner scanner = new Scanner(dataConfigFile)) {
-            return scanner.nextLine();
+            dataPath = scanner.nextLine();
+            return dataPath;
         }
 
     }
 
     public void saveDataConfig(String dataConfig) throws Exception {
 
-        ConfigPaths configPaths = new ConfigPaths();
-        File dataConfigFile = configPaths.dataConfigFilePath().toFile();
+        File dataConfigFile = configPathProvider.dataConfigFilePath().toFile();
 
         if (!dataConfigFile.exists()) {
             throw new Exception("Failed to save data config. Reason: The file does not exist!");
@@ -172,6 +114,7 @@ public class Config {
 
         try (FileWriter writer = new FileWriter(dataConfigFile)) {
             writer.write(dataConfig);
+            dataPath = dataConfig;
         }
         catch (IOException e) {
             throw new Exception("Failed to save data config. Reason: Unknown...");

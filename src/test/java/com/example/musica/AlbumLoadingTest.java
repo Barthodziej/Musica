@@ -4,7 +4,7 @@ import com.example.musica.config.Config;
 import com.example.musica.library.Album;
 import com.example.musica.library.database.FilesystemLibraryDAO;
 import com.example.musica.library.database.LibraryDAO;
-import com.example.musica.library.database.filesystemlibrary.SimpleResourcePaths;
+import com.example.musica.library.database.filesystemlibrary.LibraryPathProviderImpl;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -16,8 +16,7 @@ public class AlbumLoadingTest {
     @Test
     public void invalidNameThrowsException() throws Exception {
 
-        Config config = new Config();
-        LibraryDAO libraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
+        LibraryDAO libraryDAO = ApplicationContext.getInstance().getLibraryDAO();
         assertThrows(IllegalArgumentException.class, () -> libraryDAO.loadAlbum("szczur"));
 
     }
@@ -25,8 +24,7 @@ public class AlbumLoadingTest {
     @Test
     public void isNotNull() throws Exception {
 
-        Config config = new Config();
-        LibraryDAO libraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
+        LibraryDAO libraryDAO = ApplicationContext.getInstance().getLibraryDAO();
         Album actual = libraryDAO.loadAlbum("e8d1d6de-3f41-4556-86d3-d5b287e870f0");
         assertNotNull(actual);
 
@@ -35,8 +33,7 @@ public class AlbumLoadingTest {
     @Test
     public void loadsId() throws Exception {
 
-        Config config = new Config();
-        LibraryDAO libraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
+        LibraryDAO libraryDAO = ApplicationContext.getInstance().getLibraryDAO();
 
         String expected = "e8d1d6de-3f41-4556-86d3-d5b287e870f0";
         String actual = libraryDAO.loadAlbum("e8d1d6de-3f41-4556-86d3-d5b287e870f0").getId();
@@ -48,8 +45,7 @@ public class AlbumLoadingTest {
     @Test
     public void loadsTitle() throws Exception {
 
-        Config config = new Config();
-        LibraryDAO libraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
+        LibraryDAO libraryDAO = ApplicationContext.getInstance().getLibraryDAO();
 
         String expected = "Brave Murder Day";
         String actual = libraryDAO.loadAlbum("e8d1d6de-3f41-4556-86d3-d5b287e870f0").getTitle();
@@ -61,8 +57,7 @@ public class AlbumLoadingTest {
     @Test
     public void loadsArtistIds() throws Exception {
 
-        Config config = new Config();
-        LibraryDAO libraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
+        LibraryDAO libraryDAO = ApplicationContext.getInstance().getLibraryDAO();
 
         String[] expected = new String[] {
                 "2638d1d6-47a4-42fb-9a70-782aaf48e14f"
@@ -76,8 +71,7 @@ public class AlbumLoadingTest {
     @Test
     public void loadsHasCover() throws Exception {
 
-        Config config = new Config();
-        LibraryDAO libraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
+        LibraryDAO libraryDAO = ApplicationContext.getInstance().getLibraryDAO();
 
         boolean expected = true;
         boolean actual = libraryDAO.loadAlbum("e8d1d6de-3f41-4556-86d3-d5b287e870f0").isHasCover();
@@ -89,8 +83,7 @@ public class AlbumLoadingTest {
     @Test
     public void loadsGenres() throws Exception {
 
-        Config config = new Config();
-        LibraryDAO libraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
+        LibraryDAO libraryDAO = ApplicationContext.getInstance().getLibraryDAO();
 
         String[] expected = new String[] {
                 "Death Doom Metal",
@@ -105,8 +98,7 @@ public class AlbumLoadingTest {
     @Test
     public void loadsReleaseIds() throws Exception {
 
-        Config config = new Config();
-        LibraryDAO libraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
+        LibraryDAO libraryDAO = ApplicationContext.getInstance().getLibraryDAO();
 
         String[] expected = new String[] {
                 "7f40da94-f18a-4dad-8145-8cd835cdab72"

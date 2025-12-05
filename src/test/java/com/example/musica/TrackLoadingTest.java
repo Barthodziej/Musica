@@ -4,7 +4,7 @@ import com.example.musica.config.Config;
 import com.example.musica.library.Track;
 import com.example.musica.library.database.FilesystemLibraryDAO;
 import com.example.musica.library.database.LibraryDAO;
-import com.example.musica.library.database.filesystemlibrary.SimpleResourcePaths;
+import com.example.musica.library.database.filesystemlibrary.LibraryPathProviderImpl;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -18,8 +18,7 @@ public class TrackLoadingTest {
     @Test
     public void invalidNameThrowsException() throws Exception {
 
-        Config config = new Config();
-        LibraryDAO libraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
+        LibraryDAO libraryDAO = ApplicationContext.getInstance().getLibraryDAO();
 
         assertThrows(IllegalArgumentException.class, () -> libraryDAO.loadTrack("szczur"));
 
@@ -28,8 +27,7 @@ public class TrackLoadingTest {
     @Test
     public void isNotNull() throws Exception {
 
-        Config config = new Config();
-        LibraryDAO libraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
+        LibraryDAO libraryDAO = ApplicationContext.getInstance().getLibraryDAO();
 
         Track actual = libraryDAO.loadTrack(trackId);
 
@@ -40,8 +38,7 @@ public class TrackLoadingTest {
     @Test
     public void loadsId() throws Exception {
 
-        Config config = new Config();
-        LibraryDAO libraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
+        LibraryDAO libraryDAO = ApplicationContext.getInstance().getLibraryDAO();
 
         String expected = trackId;
         String actual = libraryDAO.loadTrack(trackId).getId();
@@ -53,8 +50,7 @@ public class TrackLoadingTest {
     @Test
     public void loadsTitle() throws Exception {
 
-        Config config = new Config();
-        LibraryDAO libraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
+        LibraryDAO libraryDAO = ApplicationContext.getInstance().getLibraryDAO();
 
         String expected = "Brave";
         String actual = libraryDAO.loadTrack(trackId).getTitle();
@@ -66,8 +62,7 @@ public class TrackLoadingTest {
     @Test
     public void loadsReleaseId() throws Exception {
 
-        Config config = new Config();
-        LibraryDAO libraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
+        LibraryDAO libraryDAO = ApplicationContext.getInstance().getLibraryDAO();
 
         String expected = "7f40da94-f18a-4dad-8145-8cd835cdab72";
         String actual = libraryDAO.loadTrack(trackId).getReleaseId();
@@ -79,8 +74,7 @@ public class TrackLoadingTest {
     @Test
     public void loadsArtistIds() throws Exception {
 
-        Config config = new Config();
-        LibraryDAO libraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
+        LibraryDAO libraryDAO = ApplicationContext.getInstance().getLibraryDAO();
 
         String[] expected = {
                 "2638d1d6-47a4-42fb-9a70-782aaf48e14f"
@@ -94,8 +88,7 @@ public class TrackLoadingTest {
     @Test
     public void loadsHasLyrics() throws Exception {
 
-        Config config = new Config();
-        LibraryDAO libraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
+        LibraryDAO libraryDAO = ApplicationContext.getInstance().getLibraryDAO();
 
         boolean expected = false;
         boolean actual = libraryDAO.loadTrack(trackId).isHasLyrics();
@@ -107,8 +100,7 @@ public class TrackLoadingTest {
     @Test
     public void loadsDuration() throws Exception {
 
-        Config config = new Config();
-        LibraryDAO libraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
+        LibraryDAO libraryDAO = ApplicationContext.getInstance().getLibraryDAO();
 
         int expected = 619;
         int actual = libraryDAO.loadTrack(trackId).getDuration();
@@ -120,8 +112,7 @@ public class TrackLoadingTest {
     @Test
     public void loadsGenres() throws Exception {
 
-        Config config = new Config();
-        LibraryDAO libraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
+        LibraryDAO libraryDAO = ApplicationContext.getInstance().getLibraryDAO();
 
         String[] expected = {
                 "Death Doom Metal",
@@ -136,8 +127,7 @@ public class TrackLoadingTest {
     @Test
     public void loadsFile() throws Exception {
 
-        Config config = new Config();
-        LibraryDAO libraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
+        LibraryDAO libraryDAO = ApplicationContext.getInstance().getLibraryDAO();
 
         String expected = "Katatonia/Brave-Murder-Day/Brave.mp3";
         String actual = libraryDAO.loadTrack(trackId).getFile();

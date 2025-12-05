@@ -4,7 +4,7 @@ import com.example.musica.config.Config;
 import com.example.musica.library.Release;
 import com.example.musica.library.database.FilesystemLibraryDAO;
 import com.example.musica.library.database.LibraryDAO;
-import com.example.musica.library.database.filesystemlibrary.SimpleResourcePaths;
+import com.example.musica.library.database.filesystemlibrary.LibraryPathProviderImpl;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -16,8 +16,7 @@ public class ReleaseLoadingTest {
     @Test
     public void invalidNameThrowsException() throws Exception {
 
-        Config config = new Config();
-        LibraryDAO libraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
+        LibraryDAO libraryDAO = ApplicationContext.getInstance().getLibraryDAO();
 
         assertThrows(IllegalArgumentException.class, () -> libraryDAO.loadRelease("szczur"));
 
@@ -26,8 +25,7 @@ public class ReleaseLoadingTest {
     @Test
     public void isNotNull() throws Exception {
 
-        Config config = new Config();
-        LibraryDAO libraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
+        LibraryDAO libraryDAO = ApplicationContext.getInstance().getLibraryDAO();
 
         Release actual = libraryDAO.loadRelease(releaseId);
 
@@ -38,8 +36,7 @@ public class ReleaseLoadingTest {
     @Test
     public void loadsId() throws Exception {
 
-        Config config = new Config();
-        LibraryDAO libraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
+        LibraryDAO libraryDAO = ApplicationContext.getInstance().getLibraryDAO();
 
         String expected = releaseId;
         String actual = libraryDAO.loadRelease(releaseId).getId();
@@ -51,8 +48,7 @@ public class ReleaseLoadingTest {
     @Test
     public void loadsAlbumId() throws Exception {
 
-        Config config = new Config();
-        LibraryDAO libraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
+        LibraryDAO libraryDAO = ApplicationContext.getInstance().getLibraryDAO();
 
         String expected = "e8d1d6de-3f41-4556-86d3-d5b287e870f0";
         String actual = libraryDAO.loadRelease(releaseId).getAlbumId();
@@ -64,8 +60,7 @@ public class ReleaseLoadingTest {
     @Test
     public void loadsCountry() throws Exception {
 
-        Config config = new Config();
-        LibraryDAO libraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
+        LibraryDAO libraryDAO = ApplicationContext.getInstance().getLibraryDAO();
 
         String expected = "United Kingdom";
         String actual = libraryDAO.loadRelease(releaseId).getCountry();
@@ -77,8 +72,7 @@ public class ReleaseLoadingTest {
     @Test
     public void loadsLabel() throws Exception {
 
-        Config config = new Config();
-        LibraryDAO libraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
+        LibraryDAO libraryDAO = ApplicationContext.getInstance().getLibraryDAO();
 
         String expected = "Peaceville";
         String actual = libraryDAO.loadRelease(releaseId).getLabel();
@@ -90,8 +84,7 @@ public class ReleaseLoadingTest {
     @Test
     public void loadsReleaseDate() throws Exception {
 
-        Config config = new Config();
-        LibraryDAO libraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
+        LibraryDAO libraryDAO = ApplicationContext.getInstance().getLibraryDAO();
 
         String expected = "2006-11-06";
         String actual = libraryDAO.loadRelease(releaseId).getReleaseDate();
@@ -103,8 +96,7 @@ public class ReleaseLoadingTest {
     @Test
     public void loadsFormat() throws Exception {
 
-        Config config = new Config();
-        LibraryDAO libraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
+        LibraryDAO libraryDAO = ApplicationContext.getInstance().getLibraryDAO();
 
         String expected = "CD";
         String actual = libraryDAO.loadRelease(releaseId).getFormat();
@@ -116,8 +108,7 @@ public class ReleaseLoadingTest {
     @Test
     public void loadsPackaging() throws Exception {
 
-        Config config = new Config();
-        LibraryDAO libraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
+        LibraryDAO libraryDAO = ApplicationContext.getInstance().getLibraryDAO();
 
         String expected = "Jewel Case";
         String actual = libraryDAO.loadRelease(releaseId).getPackaging();
@@ -129,8 +120,7 @@ public class ReleaseLoadingTest {
     @Test
     public void loadsHasCover() throws Exception {
 
-        Config config = new Config();
-        LibraryDAO libraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
+        LibraryDAO libraryDAO = ApplicationContext.getInstance().getLibraryDAO();
 
         Boolean expected = true;
         Boolean actual = libraryDAO.loadRelease(releaseId).isHasCover();
@@ -142,8 +132,7 @@ public class ReleaseLoadingTest {
     @Test
     public void loadsTrackIds() throws Exception {
 
-        Config config = new Config();
-        LibraryDAO libraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
+        LibraryDAO libraryDAO = ApplicationContext.getInstance().getLibraryDAO();
 
         String[] expected = {
                 "2c8ae407-d979-4e4e-9c35-d19aa6609339",
@@ -165,8 +154,7 @@ public class ReleaseLoadingTest {
     @Test
     public void loadsDuration() throws Exception {
 
-        Config config = new Config();
-        LibraryDAO libraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
+        LibraryDAO libraryDAO = ApplicationContext.getInstance().getLibraryDAO();
 
         String expected = "1:00:10";
         String actual = libraryDAO.loadRelease(releaseId).getDuration();
@@ -178,8 +166,7 @@ public class ReleaseLoadingTest {
     @Test
     public void loadsGenres() throws Exception {
 
-        Config config = new Config();
-        LibraryDAO libraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
+        LibraryDAO libraryDAO = ApplicationContext.getInstance().getLibraryDAO();
 
         String[] expected = {
                 "Death Doom Metal",

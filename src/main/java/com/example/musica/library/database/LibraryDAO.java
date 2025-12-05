@@ -5,27 +5,25 @@ import com.example.musica.library.Artist;
 import com.example.musica.library.Release;
 import com.example.musica.library.Track;
 
-import java.io.IOException;
-
 public interface LibraryDAO {
 
     Artist[] loadArtists() throws Exception;
-    Artist loadArtist(String id) throws IOException;
-    void saveArtist(Artist artist);
-    void deleteArtist(String id);
+    Artist loadArtist(String id) throws Exception;
+    void saveArtist(Artist artist) throws Exception;
+    void deleteArtist(String id) throws Exception;
 
     Album[] loadAlbums() throws Exception;
-    Album loadAlbum(String id);
-    void saveAlbum(Album album);
-    void deleteAlbum(String id);
+    Album loadAlbum(String id) throws Exception;
+    void saveAlbum(Album album) throws Exception;
+    void deleteAlbum(String id) throws Exception;
 
     Release[] loadReleases() throws Exception;
-    Release loadRelease(String id);
-    void saveRelease(Release release);
-    void deleteRelease(String id);
+    Release loadRelease(String id) throws Exception;
+    void saveRelease(Release release) throws Exception;
+    void deleteRelease(String id) throws Exception;
 
-    Track[] loadTracks();
-    Track loadTrack(String id);
-    void saveTrack(Track track);
-    void deleteTrack(String id);
+    Track[] loadTracks() throws Exception;
+    Track loadTrack(String id) throws Exception;
+    void saveTrack(Track track) throws Exception;
+    void deleteTrack(String id) throws Exception;
 }

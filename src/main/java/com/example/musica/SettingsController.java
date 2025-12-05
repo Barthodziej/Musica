@@ -1,6 +1,7 @@
 package com.example.musica;
 
 import com.example.musica.config.Config;
+import com.example.musica.config.ConfigInitializer;
 import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -43,11 +44,12 @@ public class SettingsController {
     @FXML
     private void saveMediaPath(ActionEvent event) {
 
-        Config config = new Config();
+        ConfigInitializer configInitializer = ApplicationContext.getInstance().getConfigInitializer();
+        Config config = ApplicationContext.getInstance().getConfig();
 
         try {
-            if (!config.isInitialized()) {
-                config.initialize();
+            if (!configInitializer.isInitialized()) {
+                configInitializer.initialize();
             }
             config.saveMediaConfig(mediaPathField.getText());
         }
@@ -76,11 +78,12 @@ public class SettingsController {
     @FXML
     private void saveDataPath(ActionEvent event) {
 
-        Config config = new Config();
+        ConfigInitializer configInitializer = ApplicationContext.getInstance().getConfigInitializer();
+        Config config = ApplicationContext.getInstance().getConfig();
 
         try {
-            if (!config.isInitialized()) {
-                config.initialize();
+            if (!configInitializer.isInitialized()) {
+                configInitializer.initialize();
             }
             config.saveDataConfig(dataPathField.getText());
         }
@@ -97,7 +100,7 @@ public class SettingsController {
     @FXML
     public void initialize() {
 
-        Config config = new Config();
+        Config config = ApplicationContext.getInstance().getConfig();
 
         try {
             mediaPathField.setText(config.loadMediaConfig());

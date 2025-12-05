@@ -3,10 +3,10 @@ package com.example.musica;
 import com.example.musica.config.Config;
 import com.example.musica.library.Album;
 import com.example.musica.library.Artist;
-import com.example.musica.library.Release;
 import com.example.musica.library.Track;
 import com.example.musica.library.database.FilesystemLibraryDAO;
-import com.example.musica.library.database.filesystemlibrary.SimpleResourcePaths;
+import com.example.musica.library.database.LibraryDAO;
+import com.example.musica.library.database.filesystemlibrary.LibraryPathProviderImpl;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -14,7 +14,6 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.ListView;
 
 import java.util.Arrays;
-import java.util.LinkedList;
 import java.util.stream.Collectors;
 
 public class LibraryController {
@@ -32,15 +31,12 @@ public class LibraryController {
     @FXML
     public void initialize() {
 
-        Config config = new Config();
-
-
         ObservableList<String> artistNames;
 
-        try {
-            FilesystemLibraryDAO filesystemLibraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
-            Artist[] artists = filesystemLibraryDAO.loadArtists();
+        LibraryDAO libraryDAO = ApplicationContext.getInstance().getLibraryDAO();
 
+        try {
+            Artist[] artists = libraryDAO.loadArtists();
             artistNames = Arrays.stream(artists).map(Artist::getName).collect(Collectors.toCollection(FXCollections::observableArrayList));
         }
         catch (Exception e) {
@@ -58,9 +54,7 @@ public class LibraryController {
         ObservableList<String> albumNames;
 
         try {
-            FilesystemLibraryDAO filesystemLibraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
-            Album[] albums = filesystemLibraryDAO.loadAlbums();
-
+            Album[] albums = libraryDAO.loadAlbums();
             albumNames = Arrays.stream(albums).map(Album::getTitle).collect(Collectors.toCollection(FXCollections::observableArrayList));
         }
         catch (Exception e) {
@@ -78,9 +72,7 @@ public class LibraryController {
         ObservableList<String> trackNames;
 
         try {
-            FilesystemLibraryDAO filesystemLibraryDAO = new FilesystemLibraryDAO(new SimpleResourcePaths(config.loadDataConfig()));
-            Track[] tracks = filesystemLibraryDAO.loadTracks();
-
+            Track[] tracks = libraryDAO.loadTracks();
             trackNames = Arrays.stream(tracks).map(Track::getTitle).collect(Collectors.toCollection(FXCollections::observableArrayList));
         }
         catch (Exception e) {

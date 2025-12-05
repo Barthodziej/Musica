@@ -1,13 +1,5 @@
 package com.example.musica;
 
-import com.example.musica.config.Config;
-import com.example.musica.library.Album;
-import com.example.musica.library.Artist;
-import com.example.musica.library.database.FilesystemLibraryDAO;
-import com.example.musica.library.database.LibraryDAO;
-import com.example.musica.library.database.filesystemlibrary.SimpleResourcePaths;
-import org.junit.jupiter.api.Test;
-
 public class LibraryTest {
 /*
 
