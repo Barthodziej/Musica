@@ -1,4 +1,4 @@
-package org.musica.library.database.filesystemlibrary;
+package org.musica.database.filesystemlibrary;
 
 import org.musica.config.Config;
 

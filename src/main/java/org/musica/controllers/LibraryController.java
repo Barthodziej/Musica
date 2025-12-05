@@ -1,10 +1,10 @@
 package org.musica.controllers;
 
 import org.musica.ApplicationContext;
-import org.musica.library.Album;
-import org.musica.library.Artist;
-import org.musica.library.Track;
-import org.musica.library.database.LibraryDAO;
+import org.musica.entities.Album;
+import org.musica.entities.Artist;
+import org.musica.entities.Track;
+import org.musica.database.LibraryDAO;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;

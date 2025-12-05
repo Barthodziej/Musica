@@ -1,8 +1,8 @@
 package com.example.musica;
 
 import org.musica.ApplicationContext;
-import org.musica.library.Artist;
-import org.musica.library.database.LibraryDAO;
+import org.musica.entities.Artist;
+import org.musica.database.LibraryDAO;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

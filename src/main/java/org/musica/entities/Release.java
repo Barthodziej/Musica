@@ -1,4 +1,4 @@
-package org.musica.library;
+package org.musica.entities;
 
 import org.apache.commons.lang3.NotImplementedException;
 

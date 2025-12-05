@@ -3,10 +3,10 @@ package org.musica;
 import org.musica.config.Config;
 import org.musica.config.ConfigInitializer;
 import org.musica.config.ConfigPathProvider;
-import org.musica.library.database.FilesystemLibraryDAO;
-import org.musica.library.database.LibraryDAO;
-import org.musica.library.database.filesystemlibrary.LibraryPathProvider;
-import org.musica.library.database.filesystemlibrary.LibraryPathProviderImpl;
+import org.musica.database.FilesystemLibraryDAO;
+import org.musica.database.LibraryDAO;
+import org.musica.database.filesystemlibrary.LibraryPathProvider;
+import org.musica.database.filesystemlibrary.LibraryPathProviderImpl;
 
 public class ApplicationContext {
 

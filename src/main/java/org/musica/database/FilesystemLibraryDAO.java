@@ -1,10 +1,10 @@
-package org.musica.library.database;
+package org.musica.database;
 
-import org.musica.library.Album;
-import org.musica.library.Artist;
-import org.musica.library.Release;
-import org.musica.library.Track;
-import org.musica.library.database.filesystemlibrary.LibraryPathProvider;
+import org.musica.entities.Album;
+import org.musica.entities.Artist;
+import org.musica.entities.Release;
+import org.musica.entities.Track;
+import org.musica.database.filesystemlibrary.LibraryPathProvider;
 
 import java.io.File;
 import java.nio.file.Files;

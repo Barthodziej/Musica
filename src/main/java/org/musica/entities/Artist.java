@@ -1,4 +1,4 @@
-package org.musica.library;
+package org.musica.entities;
 import java.io.Serializable;
 
 public class Artist implements Serializable {

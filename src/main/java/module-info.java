@@ -6,12 +6,14 @@ module com.example.musica {
     requires com.fasterxml.jackson.databind;
     requires org.apache.commons.lang3;
 
-    exports org.musica.library;
-    opens org.musica.library to javafx.fxml;
+    exports org.musica.database;
+    opens org.musica.database to javafx.fxml;
     exports org.musica.config;
     opens org.musica.config to javafx.fxml;
     exports org.musica.controllers;
     opens org.musica.controllers to javafx.fxml;
     opens org.musica to javafx.fxml;
     exports org.musica;
+    exports org.musica.entities;
+    opens org.musica.entities to javafx.fxml;
 }

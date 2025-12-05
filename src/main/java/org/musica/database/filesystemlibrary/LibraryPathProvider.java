@@ -1,4 +1,4 @@
-package org.musica.library.database.filesystemlibrary;
+package org.musica.database.filesystemlibrary;
 
 public interface LibraryPathProvider {
     String getArtistListPath() throws Exception;
