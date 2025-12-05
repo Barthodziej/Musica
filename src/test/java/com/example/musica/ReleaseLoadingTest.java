@@ -1,7 +1,8 @@
 package com.example.musica;
 
-import com.example.musica.library.Release;
-import com.example.musica.library.database.LibraryDAO;
+import org.musica.ApplicationContext;
+import org.musica.library.Release;
+import org.musica.library.database.LibraryDAO;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
