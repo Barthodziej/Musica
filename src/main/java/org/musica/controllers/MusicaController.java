@@ -34,7 +34,9 @@ public class MusicaController {
             Stage settingsStage = new Stage();
             settingsStage.setTitle("Musica: Library");
             settingsStage.setResizable(false);
-            settingsStage.setScene(new Scene(root));
+            Scene libraryScene = new Scene(root);
+            libraryScene.getStylesheets().add(getClass().getResource("library.css").toExternalForm());
+            settingsStage.setScene(libraryScene);
             settingsStage.show();
         } catch (IOException e) {
             throw new RuntimeException(e);

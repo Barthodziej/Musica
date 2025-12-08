@@ -10,39 +10,27 @@
   <tabs>
     <Tab text="Artists">
       <content>
-        <StackPane>
-          <children>
-            <ListView fx:id="artistsListView" prefHeight="200.0" prefWidth="200.0" />
-          </children>
-        </StackPane>
+        <fx:include source="artists.fxml" />
       </content>
-         <graphic>
-            <FontIcon iconLiteral="fas-user" />
-         </graphic>
+        <graphic>
+          <FontIcon iconLiteral="fas-user" />
+        </graphic>
     </Tab>
       <Tab text="Albums">
-         <content>
-            <StackPane>
-               <children>
-                  <ListView fx:id="albumsListView" prefHeight="200.0" prefWidth="200.0" />
-               </children>
-            </StackPane>
-         </content>
-         <graphic>
-            <FontIcon iconLiteral="fas-compact-disc" />
-         </graphic>
+        <content>
+          <fx:include source="albums.fxml" />
+        </content>
+        <graphic>
+          <FontIcon iconLiteral="fas-compact-disc" />
+        </graphic>
       </Tab>
       <Tab text="Tracks">
         <content>
-            <StackPane>
-               <children>
-                  <ListView fx:id="tracksListView" prefHeight="200.0" prefWidth="200.0" />
-               </children>
-            </StackPane>
+          <fx:include source="tracks.fxml" />
         </content>
-         <graphic>
-            <FontIcon iconLiteral="fas-music" />
-         </graphic>
+        <graphic>
+          <FontIcon iconLiteral="fas-music" />
+        </graphic>
       </Tab>
   </tabs>
 </TabPane>

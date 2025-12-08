@@ -5,6 +5,7 @@ module com.example.musica {
     requires org.kordamp.ikonli.fontawesome5;
     requires com.fasterxml.jackson.databind;
     requires org.apache.commons.lang3;
+    requires javafx.base;
 
     exports org.musica.database;
     opens org.musica.database to javafx.fxml;

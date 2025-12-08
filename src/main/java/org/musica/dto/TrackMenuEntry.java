@@ -1,10 +1,10 @@
-package org.musica.DTOs;
+package org.musica.dto;
 
 public class TrackMenuEntry {
 
     private String title;
-    private String[] artists;
-    
+    private String[] artistNames;
+
     public String getTitle() {
         return title;
     }
@@ -13,11 +13,22 @@ public class TrackMenuEntry {
         this.title = title;
     }
 
-    public String[] getArtists() {
-        return artists;
+    public String[] getArtistNames() {
+        return artistNames;
     }
 
-    public void setArtists(String[] artists) {
-        this.artists = artists;
+    public void setArtistNames(String[] artistNames) {
+        this.artistNames = artistNames;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        for (String artistName : artistNames) {
+            sb.append(artistName).append(", ");
+        }
+        sb.delete(sb.length() - 2, sb.length());
+        sb.append(" - ").append(title);
+        return sb.toString();
     }
 }

@@ -154,6 +154,12 @@ public class FilesystemLibraryDAO implements LibraryDAO {
     }
 
     @Override
+    public String loadAlbumCoverPath(String albumID) throws Exception {
+        System.out.println(libraryPathProvider.getAlbumCoverPath(albumID));
+        return libraryPathProvider.getAlbumCoverPath(albumID);
+    }
+
+    @Override
     public Release[] loadReleases() throws Exception {
         String releaseListPath = libraryPathProvider.getReleaseListPath();
 

@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Text?>
 
-<HBox fx:id="graphicContainer" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+<HBox fx:id="graphicContainer" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="600.0" spacing="5.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
     <children>
-      <HBox alignment="CENTER_LEFT" minWidth="300.0" prefHeight="100.0" prefWidth="200.0">
+      <ImageView fx:id="coverView" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+      <HBox alignment="CENTER_LEFT" minWidth="300.0" prefHeight="40.0" prefWidth="200.0">
          <children>
-              <Text fx:id="title" strokeType="OUTSIDE" strokeWidth="0.0" text="Courageous" />
+              <Text fx:id="title" strokeType="OUTSIDE" strokeWidth="0.0" text="Feels like a new life" />
          </children>
       </HBox>
-        <Text fx:id="artistNames" strokeType="OUTSIDE" strokeWidth="0.0" text="Lidande" />
+      <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+         <children>
+              <Text fx:id="artistNames" strokeType="OUTSIDE" strokeWidth="0.0" text="Lidande" />
+         </children>
+      </HBox>
     </children>
-    <padding>
-        <Insets left="10.0" />
-    </padding>
 </HBox>

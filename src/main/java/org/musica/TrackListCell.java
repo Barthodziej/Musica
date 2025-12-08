@@ -1,4 +1,4 @@
-package org.musica.controllers;
+package org.musica;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -11,19 +11,19 @@ import java.io.IOException;
 import java.util.Arrays;
 
 public class TrackListCell extends ListCell<TrackMenuEntry> {
+
     @FXML
     Text title;
     @FXML
     Text artistNames;
-
-    private final HBox graphicContainer;
+    @FXML
+    private HBox graphicContainer;
 
     public TrackListCell() {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("track-list-cell.fxml"));
         loader.setController(this);
         try {
             loader.load();
-            this.graphicContainer = (HBox) loader.getNamespace().get("graphicContainer");
         }
         catch (IOException e) {
             throw new RuntimeException("Could not load FXML fox TrackListCell", e);
@@ -37,10 +37,12 @@ public class TrackListCell extends ListCell<TrackMenuEntry> {
         if (empty || trackMenuEntry == null) {
             setText(null);
             setGraphic(null);
+            //System.out.println("Empty! " + trackMenuEntry + " " + empty);
         }
         else {
             title.setText(trackMenuEntry.getTitle());
-            artistNames.setText(Arrays.stream(trackMenuEntry.getArtistNames()).reduce("", (a, b) -> a + " " + b));
+            artistNames.setText(String.join(", ", trackMenuEntry.getArtistNames()));
+            setGraphic(graphicContainer);
         }
     }
 }

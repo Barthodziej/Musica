@@ -7,6 +7,7 @@ import org.musica.database.FilesystemLibraryDAO;
 import org.musica.database.LibraryDAO;
 import org.musica.database.filesystemlibrary.LibraryPathProvider;
 import org.musica.database.filesystemlibrary.LibraryPathProviderImpl;
+import org.musica.services.MenuEntryService;
 
 public class ApplicationContext {
 
@@ -15,6 +16,7 @@ public class ApplicationContext {
     private final Config config;
     private final LibraryPathProvider libraryPathProvider;
     private final LibraryDAO libraryDAO;
+    private final MenuEntryService menuEntryService;
 
     private static final ApplicationContext instance = new ApplicationContext();
 
@@ -25,6 +27,7 @@ public class ApplicationContext {
         config = new Config(configPathProvider);
         libraryPathProvider = new LibraryPathProviderImpl(config);
         libraryDAO = new FilesystemLibraryDAO(libraryPathProvider);
+        menuEntryService = new MenuEntryService(libraryDAO);
 
     }
 
@@ -42,6 +45,10 @@ public class ApplicationContext {
 
     public Config getConfig() {
         return config;
+    }
+
+    public MenuEntryService getMenuEntryService() {
+        return menuEntryService;
     }
 
 }

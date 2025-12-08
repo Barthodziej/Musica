@@ -32,6 +32,7 @@ public class SettingsController {
 
     @FXML
     private void browseMedia(ActionEvent event) {
+        // TODO: Issue: When closing the prompt window an exception is thrown
         DirectoryChooser directoryChooser = new DirectoryChooser();
         directoryChooser.setTitle("Choose media path");
         File selectedDirectory = directoryChooser.showDialog(((Node) event.getTarget()).getScene().getWindow());
@@ -66,6 +67,7 @@ public class SettingsController {
 
     @FXML
     private void browseData(ActionEvent event) {
+        // TODO: Issue: When closing the prompt window an exception is thrown
         DirectoryChooser directoryChooser = new DirectoryChooser();
         directoryChooser.setTitle("Choose data path");
         File selectedDirectory = directoryChooser.showDialog(((Node) event.getTarget()).getScene().getWindow());
@@ -111,6 +113,7 @@ public class SettingsController {
             alert.setTitle("Error!");
             alert.setHeaderText("Could not load media path!");
             alert.setContentText(e.getMessage());
+            alert.showAndWait();
         }
 
         try {
@@ -121,6 +124,7 @@ public class SettingsController {
             alert.setTitle("Error!");
             alert.setHeaderText("Could not load data path!");
             alert.setContentText(e.getMessage());
+            alert.showAndWait();
         }
 
         mediaPathTooltip.textProperty().bind(mediaPathField.textProperty());

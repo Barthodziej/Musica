@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.StackPane?>
+
+
+<StackPane fx:controller="org.musica.controllers.TracksController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ListView fx:id="tracksListView" prefHeight="369.0" prefWidth="600.0" />
+   </children>
+</StackPane>

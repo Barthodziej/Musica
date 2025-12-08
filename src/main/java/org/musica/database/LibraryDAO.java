@@ -16,6 +16,7 @@ public interface LibraryDAO {
     Album loadAlbum(String id) throws Exception;
     void saveAlbum(Album album) throws Exception;
     void deleteAlbum(String id) throws Exception;
+    String loadAlbumCoverPath(String albumID) throws Exception;
 
     Release[] loadReleases() throws Exception;
     Release loadRelease(String id) throws Exception;
