@@ -6,6 +6,7 @@ module com.example.musica {
     requires com.fasterxml.jackson.databind;
     requires org.apache.commons.lang3;
     requires javafx.base;
+    requires javafx.graphics;
 
     exports org.musica.database;
     opens org.musica.database to javafx.fxml;

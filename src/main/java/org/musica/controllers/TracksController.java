@@ -38,7 +38,7 @@ public class TracksController {
         }
 
         tracksListView.setItems(trackMenuEntries);
-        tracksListView.setCellFactory(listView -> new TrackListCell());
+        tracksListView.setCellFactory(_ -> new TrackListCell());
 
     }
 

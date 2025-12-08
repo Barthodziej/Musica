@@ -24,6 +24,14 @@
           <FontIcon iconLiteral="fas-compact-disc" />
         </graphic>
       </Tab>
+      <Tab text="Releases">
+          <content>
+              <fx:include source="releases.fxml" />
+          </content>
+          <graphic>
+              <FontIcon iconLiteral="fas-user" />
+          </graphic>
+      </Tab>
       <Tab text="Tracks">
         <content>
           <fx:include source="tracks.fxml" />

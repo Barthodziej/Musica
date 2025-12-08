@@ -6,7 +6,9 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ListView;
 import org.musica.ApplicationContext;
+import org.musica.ArtistListCell;
 import org.musica.database.LibraryDAO;
+import org.musica.dto.ArtistMenuEntry;
 import org.musica.entities.Artist;
 import org.musica.services.MenuEntryService;
 
@@ -16,7 +18,7 @@ import java.util.stream.Collectors;
 public class ArtistsController {
 
     @FXML
-    ListView<String> artistsListView;
+    ListView<ArtistMenuEntry> artistsListView;
 
     @FXML
     public void initialize() {
@@ -24,11 +26,10 @@ public class ArtistsController {
         LibraryDAO libraryDAO = ApplicationContext.getInstance().getLibraryDAO();
         MenuEntryService menuEntryService = ApplicationContext.getInstance().getMenuEntryService();
 
-        ObservableList<String> artistNames;
+        ObservableList<ArtistMenuEntry> artistMenuEntries;
 
         try {
-            Artist[] artists = libraryDAO.loadArtists();
-            artistNames = Arrays.stream(artists).map(Artist::getName).collect(Collectors.toCollection(FXCollections::observableArrayList));
+            artistMenuEntries = FXCollections.observableArrayList(menuEntryService.getArtistMenuEntries());
         }
         catch (Exception e) {
             Alert alert = new Alert(Alert.AlertType.ERROR);
@@ -37,10 +38,13 @@ public class ArtistsController {
             alert.setContentText(e.getMessage());
             alert.showAndWait();
 
-            artistNames = FXCollections.observableArrayList();
+            artistMenuEntries = FXCollections.observableArrayList();
         }
 
-        artistsListView.setItems(artistNames);
+        artistMenuEntries.forEach(artistMenuEntry -> {System.out.println(artistMenuEntry.getName());});
+
+        artistsListView.setItems(artistMenuEntries);
+        artistsListView.setCellFactory(_ -> new ArtistListCell());
     }
 
 }

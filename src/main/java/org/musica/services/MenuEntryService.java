@@ -2,6 +2,7 @@ package org.musica.services;
 
 import org.musica.database.LibraryDAO;
 import org.musica.dto.AlbumMenuEntry;
+import org.musica.dto.ArtistMenuEntry;
 import org.musica.dto.TrackMenuEntry;
 import org.musica.entities.Album;
 import org.musica.entities.Artist;
@@ -92,4 +93,43 @@ public class MenuEntryService {
         }
         return albumMenuEntries;
     }
+
+    public ArtistMenuEntry getArtistMenuEntry(String artistID) throws Exception {
+
+        Artist artist = libraryDAO.loadArtist(artistID);
+
+        String avatarPath = "";
+        String name = artist.getName();
+        int albumsCount = artist.getAlbumIds().length;
+
+        ArtistMenuEntry artistMenuEntry = new ArtistMenuEntry();
+
+        artistMenuEntry.setAvatarPath(avatarPath);
+        artistMenuEntry.setName(name);
+        artistMenuEntry.setAlbumsCount(albumsCount);
+
+        return artistMenuEntry;
+
+    }
+
+    public ArtistMenuEntry[] getArtistMenuEntries() throws Exception {
+
+        Artist[] artists = libraryDAO.loadArtists();
+
+        ArtistMenuEntry[] artistMenuEntries = new ArtistMenuEntry[artists.length];
+        for (int i = 0; i < artists.length; i++) {
+
+            String avatarPath = "";
+            String name = artists[i].getName();
+            int albumsCount = artists[i].getAlbumIds().length;
+
+            artistMenuEntries[i] = new ArtistMenuEntry();
+
+            artistMenuEntries[i].setAvatarPath(avatarPath);
+            artistMenuEntries[i].setName(name);
+            artistMenuEntries[i].setAlbumsCount(albumsCount);
+        }
+        return artistMenuEntries;
+    }
+
 }
