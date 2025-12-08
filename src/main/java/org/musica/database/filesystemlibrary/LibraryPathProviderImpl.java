@@ -52,6 +52,11 @@ public class LibraryPathProviderImpl implements LibraryPathProvider {
     }
 
     @Override
+    public String getArtistAvatarPath(String artistId) throws Exception {
+        return getArtistsPath() + "/" + artistId + "/avatar.jpg";
+    }
+
+    @Override
     public String getAlbumDataPath(String albumId) throws Exception {
         return getAlbumsPath() + "/" + albumId + "/data.json";
     }

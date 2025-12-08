@@ -6,6 +6,7 @@ public class Artist implements Serializable {
     private String name;
     private String[] genres;
     private String[] albumIds;
+    private boolean hasAvatar;
 
     public Artist() {
         id = "";
@@ -44,6 +45,14 @@ public class Artist implements Serializable {
 
     public void setAlbumIds(String[] albumIds) {
         this.albumIds = albumIds;
+    }
+
+    public boolean isHasAvatar() {
+        return hasAvatar;
+    }
+
+    public void setHasAvatar(boolean hasAvatar) {
+        this.hasAvatar = hasAvatar;
     }
 
     public String toString() {

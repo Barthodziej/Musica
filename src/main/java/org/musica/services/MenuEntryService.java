@@ -97,14 +97,14 @@ public class MenuEntryService {
     public ArtistMenuEntry getArtistMenuEntry(String artistID) throws Exception {
 
         Artist artist = libraryDAO.loadArtist(artistID);
+        String avatarPath = libraryDAO.loadArtistAvatarPath(artistID);
 
-        String avatarPath = "";
         String name = artist.getName();
         int albumsCount = artist.getAlbumIds().length;
 
         ArtistMenuEntry artistMenuEntry = new ArtistMenuEntry();
 
-        artistMenuEntry.setAvatarPath(avatarPath);
+        artistMenuEntry.setAvatarPath(artist.isHasAvatar() ? avatarPath : "");
         artistMenuEntry.setName(name);
         artistMenuEntry.setAlbumsCount(albumsCount);
 
@@ -119,13 +119,13 @@ public class MenuEntryService {
         ArtistMenuEntry[] artistMenuEntries = new ArtistMenuEntry[artists.length];
         for (int i = 0; i < artists.length; i++) {
 
-            String avatarPath = "";
+            String avatarPath = libraryDAO.loadArtistAvatarPath(artists[i].getId());
             String name = artists[i].getName();
             int albumsCount = artists[i].getAlbumIds().length;
 
             artistMenuEntries[i] = new ArtistMenuEntry();
 
-            artistMenuEntries[i].setAvatarPath(avatarPath);
+            artistMenuEntries[i].setAvatarPath(artists[i].isHasAvatar() ? avatarPath : "");
             artistMenuEntries[i].setName(name);
             artistMenuEntries[i].setAlbumsCount(albumsCount);
         }

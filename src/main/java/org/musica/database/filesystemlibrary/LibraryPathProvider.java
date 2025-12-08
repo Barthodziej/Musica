@@ -6,6 +6,7 @@ public interface LibraryPathProvider {
     String getReleaseListPath() throws Exception;
     String getTrackListPath() throws Exception;
     String getArtistDataPath(String artistId) throws Exception;
+    String getArtistAvatarPath(String artistId) throws Exception;
     String getAlbumDataPath(String albumId) throws Exception;
     String getAlbumCoverPath(String albumId) throws Exception;
     String getReleaseDataPath(String releaseId) throws Exception;

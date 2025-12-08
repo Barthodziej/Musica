@@ -11,6 +11,7 @@ public interface LibraryDAO {
     Artist loadArtist(String id) throws Exception;
     void saveArtist(Artist artist) throws Exception;
     void deleteArtist(String id) throws Exception;
+    String loadArtistAvatarPath(String albumID) throws Exception;
 
     Album[] loadAlbums() throws Exception;
     Album loadAlbum(String id) throws Exception;

@@ -43,7 +43,6 @@ public class AlbumListCell extends ListCell<AlbumMenuEntry> {
             setGraphic(null);
         }
         else {
-            System.out.println(albumMenuEntry.getCoverPath());
             coverView.setImage(new Image(new File(albumMenuEntry.getCoverPath()).toURI().toString(), coverView.getFitWidth(), coverView.getFitHeight(), false, true));
             title.setText(albumMenuEntry.getTitle());
             artistNames.setText(String.join(", ", albumMenuEntry.getArtistNames()));

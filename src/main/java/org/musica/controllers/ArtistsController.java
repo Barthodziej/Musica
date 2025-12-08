@@ -41,8 +41,6 @@ public class ArtistsController {
             artistMenuEntries = FXCollections.observableArrayList();
         }
 
-        artistMenuEntries.forEach(artistMenuEntry -> {System.out.println(artistMenuEntry.getName());});
-
         artistsListView.setItems(artistMenuEntries);
         artistsListView.setCellFactory(_ -> new ArtistListCell());
     }

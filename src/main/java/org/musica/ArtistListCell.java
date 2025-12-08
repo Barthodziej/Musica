@@ -3,11 +3,13 @@ package org.musica;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.ListCell;
+import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.HBox;
 import javafx.scene.text.Text;
 import org.musica.dto.ArtistMenuEntry;
 
+import java.io.File;
 import java.io.IOException;
 
 public class ArtistListCell extends ListCell<ArtistMenuEntry> {
@@ -39,14 +41,13 @@ public class ArtistListCell extends ListCell<ArtistMenuEntry> {
         if (empty || artistMenuEntry == null) {
             setText(null);
             setGraphic(null);
-            System.out.println("Empty! " + artistMenuEntry + " " + empty);
         }
         else {
             // TODO: Avatar loading
             name.setText(artistMenuEntry.getName());
+            avatarView.setImage(new Image(new File(artistMenuEntry.getAvatarPath()).toURI().toString(), avatarView.getFitWidth(), avatarView.getFitHeight(), false, true));
             albumsCount.setText(artistMenuEntry.getAlbumsCount() + " albums");
             setGraphic(graphicContainer);
-            System.out.println("List cell set up, artist Name: " + artistMenuEntry.getName());
         }
     }
 

@@ -90,6 +90,11 @@ public class FilesystemLibraryDAO implements LibraryDAO {
     }
 
     @Override
+    public String loadArtistAvatarPath(String artistID) throws Exception {
+        return libraryPathProvider.getArtistAvatarPath(artistID);
+    }
+
+    @Override
     public Album[] loadAlbums() throws Exception {
         String albumListPath = libraryPathProvider.getAlbumListPath();
 
@@ -155,7 +160,6 @@ public class FilesystemLibraryDAO implements LibraryDAO {
 
     @Override
     public String loadAlbumCoverPath(String albumID) throws Exception {
-        System.out.println(libraryPathProvider.getAlbumCoverPath(albumID));
         return libraryPathProvider.getAlbumCoverPath(albumID);
     }
 
