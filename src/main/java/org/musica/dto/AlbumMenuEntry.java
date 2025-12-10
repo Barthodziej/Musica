@@ -2,9 +2,18 @@ package org.musica.dto;
 
 public class AlbumMenuEntry {
 
+    private String ID;
     private String coverPath;
     private String title;
     private String[] artistNames;
+
+    public String getID() {
+        return ID;
+    }
+
+    public void setID(String ID) {
+        this.ID = ID;
+    }
 
     public String getCoverPath() {
         return coverPath;
@@ -40,4 +49,5 @@ public class AlbumMenuEntry {
         sb.append(" - ").append(title);
         return sb.toString();
     }
+
 }

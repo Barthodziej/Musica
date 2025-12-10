@@ -29,6 +29,7 @@ public class MenuEntryService {
         }
 
         TrackMenuEntry trackMenuEntry = new TrackMenuEntry();
+        trackMenuEntry.setID(track.getId());
         trackMenuEntry.setTitle(track.getTitle());
         trackMenuEntry.setArtistNames(Arrays.stream(artists).map(Artist::getName).toArray(String[]::new));
 
@@ -48,6 +49,7 @@ public class MenuEntryService {
                 artists[j] = libraryDAO.loadArtist(artistIDs[j]);
             }
             trackMenuEntries[i] = new TrackMenuEntry();
+            trackMenuEntries[i].setID(tracks[i].getId());
             trackMenuEntries[i].setTitle(tracks[i].getTitle());
             trackMenuEntries[i].setArtistNames(Arrays.stream(artists).map(Artist::getName).toArray(String[]::new));
         }
@@ -66,6 +68,7 @@ public class MenuEntryService {
         }
 
         AlbumMenuEntry albumMenuEntry = new AlbumMenuEntry();
+        albumMenuEntry.setID(album.getId());
         albumMenuEntry.setCoverPath(coverPath);
         albumMenuEntry.setTitle(album.getTitle());
         albumMenuEntry.setArtistNames(Arrays.stream(artists).map(Artist::getName).toArray(String[]::new));
@@ -87,6 +90,7 @@ public class MenuEntryService {
                 artists[j] = libraryDAO.loadArtist(artistIDs[j]);
             }
             albumMenuEntries[i] = new AlbumMenuEntry();
+            albumMenuEntries[i].setID(albums[i].getId());
             albumMenuEntries[i].setCoverPath(coverPath);
             albumMenuEntries[i].setTitle(albums[i].getTitle());
             albumMenuEntries[i].setArtistNames(Arrays.stream(artists).map(Artist::getName).toArray(String[]::new));
@@ -104,6 +108,7 @@ public class MenuEntryService {
 
         ArtistMenuEntry artistMenuEntry = new ArtistMenuEntry();
 
+        artistMenuEntry.setID(artist.getId());
         artistMenuEntry.setAvatarPath(artist.isHasAvatar() ? avatarPath : "");
         artistMenuEntry.setName(name);
         artistMenuEntry.setAlbumsCount(albumsCount);
@@ -125,6 +130,7 @@ public class MenuEntryService {
 
             artistMenuEntries[i] = new ArtistMenuEntry();
 
+            artistMenuEntries[i].setID(artists[i].getId());
             artistMenuEntries[i].setAvatarPath(artists[i].isHasAvatar() ? avatarPath : "");
             artistMenuEntries[i].setName(name);
             artistMenuEntries[i].setAlbumsCount(albumsCount);
