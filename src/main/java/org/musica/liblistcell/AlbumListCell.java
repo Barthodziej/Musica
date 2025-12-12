@@ -7,6 +7,7 @@ import javafx.scene.control.ListCell;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.HBox;
+import org.musica.controllers.liblistcell.AlbumListCellController;
 import org.musica.dto.AlbumMenuEntry;
 
 import java.io.File;
@@ -14,20 +15,14 @@ import java.io.IOException;
 
 public class AlbumListCell extends ListCell<AlbumMenuEntry> {
 
-    @FXML
-    ImageView coverView;
-    @FXML
-    Label title;
-    @FXML
-    Label artistNames;
-    @FXML
+    AlbumListCellController controller;
     private HBox graphicContainer;
 
     public AlbumListCell() {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("album-list-cell.fxml"));
-        loader.setController(this);
         try {
-            loader.load();
+            graphicContainer = loader.load();
+            controller = loader.getController();
         }
         catch (IOException e) {
             throw new RuntimeException("Could not load FXML fox AlbumListCell", e);
@@ -43,9 +38,9 @@ public class AlbumListCell extends ListCell<AlbumMenuEntry> {
             setGraphic(null);
         }
         else {
-            coverView.setImage(new Image(new File(albumMenuEntry.getCoverPath()).toURI().toString(), coverView.getFitWidth(), coverView.getFitHeight(), false, true));
-            title.setText(albumMenuEntry.getTitle());
-            artistNames.setText(String.join(", ", albumMenuEntry.getArtistNames()));
+            controller.setCover(albumMenuEntry.getCoverPath());
+            controller.setTitle(albumMenuEntry.getTitle());
+            controller.setArtistNames(String.join(", ", albumMenuEntry.getArtistNames()));
             setGraphic(graphicContainer);
         }
     }

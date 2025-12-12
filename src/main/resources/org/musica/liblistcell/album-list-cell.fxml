@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.StackPane?>
 <?import org.kordamp.ikonli.javafx.FontIcon?>
 
-<HBox fx:id="graphicContainer" alignment="CENTER_LEFT" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="40.0" spacing="5.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+<HBox fx:controller="org.musica.controllers.liblistcell.AlbumListCellController" onMouseEntered="#handleMouseEnter" onMouseExited="#handleMouseExit" alignment="CENTER_LEFT" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="40.0" spacing="5.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
     <children>
       <ImageView fx:id="coverView" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
       <GridPane HBox.hgrow="ALWAYS">
@@ -37,7 +37,7 @@
       </GridPane>
       <StackPane>
          <children>
-            <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0">
+            <Button fx:id="editButton" visible="false" mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0">
                <graphic>
                   <FontIcon iconLiteral="fas-pencil-alt" />
                </graphic>

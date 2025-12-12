@@ -7,6 +7,7 @@ import javafx.scene.control.ListCell;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.HBox;
+import org.musica.controllers.liblistcell.ReleaseListCellController;
 import org.musica.dto.ReleaseMenuEntry;
 
 import java.io.File;
@@ -14,22 +15,14 @@ import java.io.IOException;
 
 public class ReleaseListCell extends ListCell<ReleaseMenuEntry> {
 
-    @FXML
-    ImageView coverView;
-    @FXML
-    Label title;
-    @FXML
-    Label releaseDate;
-    @FXML
-    Label artistNames;
-    @FXML
+    private ReleaseListCellController controller;
     private HBox graphicContainer;
 
     public ReleaseListCell() {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("release-list-cell.fxml"));
-        loader.setController(this);
         try {
-            loader.load();
+            graphicContainer = loader.load();
+            controller = loader.getController();
         }
         catch (IOException e) {
             throw new RuntimeException("Could not load FXML fox ReleaseListCell", e);
@@ -46,10 +39,10 @@ public class ReleaseListCell extends ListCell<ReleaseMenuEntry> {
             //System.out.println("Empty! " + trackMenuEntry + " " + empty);
         }
         else {
-            coverView.setImage(new Image(new File(releaseMenuEntry.getCoverPath()).toURI().toString(), coverView.getFitWidth(), coverView.getFitHeight(), false, true));
-            title.setText(releaseMenuEntry.getTitle());
-            releaseDate.setText(releaseMenuEntry.getReleaseDate());
-            artistNames.setText(String.join(", ", releaseMenuEntry.getArtistNames()));
+            controller.setCover(releaseMenuEntry.getCoverPath());
+            controller.setTitle(releaseMenuEntry.getTitle());
+            controller.setReleaseDate(releaseMenuEntry.getReleaseDate());
+            controller.setArtistNames(String.join(", ", releaseMenuEntry.getArtistNames()));
             setGraphic(graphicContainer);
         }
     }
