@@ -1,4 +1,4 @@
-module com.example.musica {
+module org.example.musica {
     requires javafx.controls;
     requires javafx.fxml;
     requires org.kordamp.ikonli.javafx;
@@ -20,4 +20,5 @@ module com.example.musica {
     opens org.musica.entities to javafx.fxml;
     exports org.musica.liblistcell;
     opens org.musica.liblistcell to javafx.fxml;
+    opens org.musica.controllers.liblistcell to javafx.fxml;
 }
