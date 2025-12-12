@@ -4,8 +4,8 @@
 <?import javafx.scene.layout.StackPane?>
 
 
-<StackPane fx:controller="org.musica.controllers.ReleasesController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+<StackPane fx:controller="org.musica.controllers.ReleasesController" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
     <children>
-        <ListView fx:id="releasesListView" prefHeight="369.0" prefWidth="600.0" />
+        <ListView fx:id="releasesListView" maxWidth="Infinity" maxHeight="Infinity" />
     </children>
 </StackPane>

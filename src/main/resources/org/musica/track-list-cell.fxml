@@ -1,21 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.Region?>
-<?import javafx.scene.text.Text?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
 
-<HBox fx:id="graphicContainer" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="600.0" spacing="5.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
+<HBox fx:id="graphicContainer" alignment="CENTER_LEFT" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="40.0" spacing="5.0" HBox.hgrow="ALWAYS" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
     <children>
-      <Region prefHeight="200.0" prefWidth="0.0" />
-      <HBox alignment="CENTER_LEFT" minWidth="300.0" prefHeight="40.0" prefWidth="200.0">
+      <GridPane HBox.hgrow="ALWAYS">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" percentWidth="50.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" percentWidth="50.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
          <children>
-              <Text fx:id="title" strokeType="OUTSIDE" strokeWidth="0.0" text="Courageous" />
+            <HBox alignment="CENTER_LEFT" prefHeight="40.0">
+               <children>
+                    <Label fx:id="title" text="Courageous" />
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="40.0" GridPane.columnIndex="1">
+               <children>
+                    <Label fx:id="artistNames" text="Lidande" />
+               </children>
+            </HBox>
          </children>
-      </HBox>
-      <HBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="300.0">
+      </GridPane>
+      <StackPane>
          <children>
-              <Text fx:id="artistNames" strokeType="OUTSIDE" strokeWidth="0.0" text="Lidande" />
+            <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0">
+               <graphic>
+                  <FontIcon iconLiteral="fas-pencil-alt" />
+               </graphic>
+            </Button>
          </children>
-      </HBox>
+         <padding>
+            <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+         </padding>
+      </StackPane>
     </children>
 </HBox>

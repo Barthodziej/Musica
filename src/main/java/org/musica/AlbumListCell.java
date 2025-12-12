@@ -2,6 +2,7 @@ package org.musica;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.scene.control.Label;
 import javafx.scene.control.ListCell;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
@@ -17,9 +18,9 @@ public class AlbumListCell extends ListCell<AlbumMenuEntry> {
     @FXML
     ImageView coverView;
     @FXML
-    Text title;
+    Label title;
     @FXML
-    Text artistNames;
+    Label artistNames;
     @FXML
     private HBox graphicContainer;
 

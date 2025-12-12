@@ -19,7 +19,6 @@ public class Musica extends Application {
         Scene scene = new Scene(fxmlLoader.load());
         primaryStage.setScene(scene);
         primaryStage.setTitle("Musica");
-        primaryStage.setResizable(false);
         primaryStage.show();
     }
 }
