@@ -18,4 +18,6 @@ module com.example.musica {
     exports org.musica;
     exports org.musica.entities;
     opens org.musica.entities to javafx.fxml;
+    exports org.musica.liblistcells;
+    opens org.musica.liblistcells to javafx.fxml;
 }

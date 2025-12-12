@@ -1,4 +1,4 @@
-package org.musica;
+package org.musica.liblistcells;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -7,7 +7,6 @@ import javafx.scene.control.ListCell;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.HBox;
-import javafx.scene.text.Text;
 import org.musica.dto.ArtistMenuEntry;
 
 import java.io.File;

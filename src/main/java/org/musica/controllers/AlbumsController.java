@@ -5,7 +5,7 @@ import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ListView;
-import org.musica.AlbumListCell;
+import org.musica.liblistcells.AlbumListCell;
 import org.musica.ApplicationContext;
 import org.musica.database.LibraryDAO;
 import org.musica.dto.AlbumMenuEntry;

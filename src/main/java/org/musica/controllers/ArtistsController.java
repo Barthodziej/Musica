@@ -6,14 +6,10 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ListView;
 import org.musica.ApplicationContext;
-import org.musica.ArtistListCell;
+import org.musica.liblistcells.ArtistListCell;
 import org.musica.database.LibraryDAO;
 import org.musica.dto.ArtistMenuEntry;
-import org.musica.entities.Artist;
 import org.musica.services.MenuEntryService;
-
-import java.util.Arrays;
-import java.util.stream.Collectors;
 
 public class ArtistsController {
 

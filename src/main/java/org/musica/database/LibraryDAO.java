@@ -23,6 +23,7 @@ public interface LibraryDAO {
     Release loadRelease(String id) throws Exception;
     void saveRelease(Release release) throws Exception;
     void deleteRelease(String id) throws Exception;
+    String loadReleaseCoverPath(String releaseID) throws Exception;
 
     Track[] loadTracks() throws Exception;
     Track loadTrack(String id) throws Exception;

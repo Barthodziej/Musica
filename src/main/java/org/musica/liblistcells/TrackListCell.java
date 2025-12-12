@@ -1,15 +1,13 @@
-package org.musica;
+package org.musica.liblistcells;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListCell;
 import javafx.scene.layout.HBox;
-import javafx.scene.text.Text;
 import org.musica.dto.TrackMenuEntry;
 
 import java.io.IOException;
-import java.util.Arrays;
 
 public class TrackListCell extends ListCell<TrackMenuEntry> {
 

@@ -227,6 +227,11 @@ public class FilesystemLibraryDAO implements LibraryDAO {
     }
 
     @Override
+    public String loadReleaseCoverPath(String releaseID) throws Exception {
+        return libraryPathProvider.getReleaseCoverPath(releaseID);
+    }
+
+    @Override
     public Track[] loadTracks() throws Exception {
 
         String trackListPath = libraryPathProvider.getTrackListPath();

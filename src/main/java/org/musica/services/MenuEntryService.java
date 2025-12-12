@@ -3,9 +3,11 @@ package org.musica.services;
 import org.musica.database.LibraryDAO;
 import org.musica.dto.AlbumMenuEntry;
 import org.musica.dto.ArtistMenuEntry;
+import org.musica.dto.ReleaseMenuEntry;
 import org.musica.dto.TrackMenuEntry;
 import org.musica.entities.Album;
 import org.musica.entities.Artist;
+import org.musica.entities.Release;
 import org.musica.entities.Track;
 
 import java.util.Arrays;
@@ -54,6 +56,53 @@ public class MenuEntryService {
             trackMenuEntries[i].setArtistNames(Arrays.stream(artists).map(Artist::getName).toArray(String[]::new));
         }
         return trackMenuEntries;
+    }
+
+    public ReleaseMenuEntry getReleaseMenuEntry(String releaseID) throws Exception {
+
+        Release release = libraryDAO.loadRelease(releaseID);
+        Album album = libraryDAO.loadAlbum(release.getAlbumId());
+
+        String[] artistIDs = album.getArtistIds();
+        Artist[] artists = new Artist[artistIDs.length];
+        for (int i = 0; i < artistIDs.length; i++) {
+            artists[i] = libraryDAO.loadArtist(artistIDs[i]);
+        }
+
+        String coverPath = libraryDAO.loadReleaseCoverPath(releaseID);
+
+        ReleaseMenuEntry releaseMenuEntry = new ReleaseMenuEntry();
+        releaseMenuEntry.setID(release.getId());
+        releaseMenuEntry.setCoverPath(coverPath);
+        releaseMenuEntry.setTitle(album.getTitle());
+        releaseMenuEntry.setReleaseDate(release.getReleaseDate());
+        releaseMenuEntry.setArtistNames(Arrays.stream(artists).map(Artist::getName).toArray(String[]::new));
+
+        return releaseMenuEntry;
+
+    }
+
+    public ReleaseMenuEntry[] getReleaseMenuEntries() throws Exception {
+
+        Release[] releases = libraryDAO.loadReleases();
+
+        ReleaseMenuEntry[] releaseMenuEntries = new ReleaseMenuEntry[releases.length];
+        for (int i = 0; i < releases.length; i++) {
+            Album album = libraryDAO.loadAlbum(releases[i].getAlbumId());
+            String coverPath = libraryDAO.loadReleaseCoverPath(releases[i].getId());
+            String[] artistIDs = album.getArtistIds();
+            Artist[] artists = new Artist[artistIDs.length];
+            for (int j = 0; j < artistIDs.length; j++) {
+                artists[j] = libraryDAO.loadArtist(artistIDs[j]);
+            }
+            releaseMenuEntries[i] = new ReleaseMenuEntry();
+            releaseMenuEntries[i].setID(releases[i].getId());
+            releaseMenuEntries[i].setCoverPath(coverPath);
+            releaseMenuEntries[i].setTitle(album.getTitle());
+            releaseMenuEntries[i].setReleaseDate(releases[i].getReleaseDate());
+            releaseMenuEntries[i].setArtistNames(Arrays.stream(artists).map(Artist::getName).toArray(String[]::new));
+        }
+        return releaseMenuEntries;
     }
 
     public AlbumMenuEntry getAlbumMenuEntry(String albumID) throws Exception {

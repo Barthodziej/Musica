@@ -12,30 +12,33 @@
 <?import org.kordamp.ikonli.javafx.FontIcon?>
 
 <HBox fx:id="graphicContainer" alignment="CENTER_LEFT" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="40.0" spacing="5.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1">
-    <children>
-      <ImageView fx:id="coverView" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
+   <children>
+      <ImageView fx:id="avatarView" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true" />
       <GridPane HBox.hgrow="ALWAYS">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" percentWidth="50.0" prefWidth="100.0" />
-          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" percentWidth="50.0" prefWidth="100.0" />
         </columnConstraints>
         <rowConstraints>
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <HBox alignment="CENTER_LEFT" minWidth="300.0" prefHeight="40.0">
+            <HBox alignment="CENTER_LEFT" prefHeight="40.0">
                <children>
-                    <Label fx:id="title" text="Feels like a new life" />
+                  <Label fx:id="name" text="Lidande" />
                </children>
             </HBox>
-            <HBox alignment="CENTER_LEFT" prefHeight="100.0" GridPane.columnIndex="1">
+            <HBox alignment="CENTER_LEFT" prefHeight="40.0" GridPane.columnIndex="1">
                <children>
-                    <Label fx:id="artistNames" text="Lidande" />
+                  <Label fx:id="albumsCount" text="2137 albums" />
                </children>
             </HBox>
          </children>
       </GridPane>
       <StackPane>
+         <padding>
+            <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+         </padding>
          <children>
             <Button mnemonicParsing="false" prefHeight="32.0" prefWidth="32.0">
                <graphic>
@@ -43,9 +46,6 @@
                </graphic>
             </Button>
          </children>
-         <padding>
-            <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
-         </padding>
       </StackPane>
-    </children>
+   </children>
 </HBox>
