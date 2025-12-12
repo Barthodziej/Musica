@@ -6,7 +6,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ListView;
 import org.musica.ApplicationContext;
-import org.musica.liblistcells.ArtistListCell;
+import org.musica.liblistcell.ArtistListCell;
 import org.musica.database.LibraryDAO;
 import org.musica.dto.ArtistMenuEntry;
 import org.musica.services.MenuEntryService;

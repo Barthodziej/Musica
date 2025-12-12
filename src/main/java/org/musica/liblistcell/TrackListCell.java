@@ -1,4 +1,4 @@
-package org.musica.liblistcells;
+package org.musica.liblistcell;
 
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;

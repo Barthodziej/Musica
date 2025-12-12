@@ -7,10 +7,8 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.ListView;
 import org.musica.ApplicationContext;
 import org.musica.database.LibraryDAO;
-import org.musica.dto.AlbumMenuEntry;
 import org.musica.dto.ReleaseMenuEntry;
-import org.musica.liblistcells.AlbumListCell;
-import org.musica.liblistcells.ReleaseListCell;
+import org.musica.liblistcell.ReleaseListCell;
 import org.musica.services.MenuEntryService;
 
 public class ReleasesController {
