@@ -7,6 +7,7 @@ import javafx.scene.control.ListCell;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.HBox;
+import org.musica.controllers.liblistcell.ArtistListCellController;
 import org.musica.dto.ArtistMenuEntry;
 
 import java.io.File;
@@ -14,20 +15,14 @@ import java.io.IOException;
 
 public class ArtistListCell extends ListCell<ArtistMenuEntry> {
 
-    @FXML
-    ImageView avatarView;
-    @FXML
-    Label name;
-    @FXML
-    Label albumsCount;
-    @FXML
     private HBox graphicContainer;
+    private ArtistListCellController controller;
 
     public ArtistListCell() {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("artist-list-cell.fxml"));
-        loader.setController(this);
         try {
-            loader.load();
+            graphicContainer = loader.load();
+            controller = loader.getController();
         }
         catch (IOException e) {
             throw new RuntimeException("Could not load FXML fox ArtistListCell", e);
@@ -44,9 +39,9 @@ public class ArtistListCell extends ListCell<ArtistMenuEntry> {
         }
         else {
             // TODO: Avatar loading
-            name.setText(artistMenuEntry.getName());
-            avatarView.setImage(new Image(new File(artistMenuEntry.getAvatarPath()).toURI().toString(), avatarView.getFitWidth(), avatarView.getFitHeight(), false, true));
-            albumsCount.setText(artistMenuEntry.getAlbumsCount() + " albums");
+            controller.setName(artistMenuEntry.getName());
+            controller.setAvatar(artistMenuEntry.getAvatarPath());
+            controller.setAlbumsCount(artistMenuEntry.getAlbumsCount() + " albums");
             setGraphic(graphicContainer);
         }
     }
