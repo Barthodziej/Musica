@@ -32,6 +32,7 @@ public class MenuEntryService {
 
         TrackMenuEntry trackMenuEntry = new TrackMenuEntry();
         trackMenuEntry.setID(track.getId());
+        trackMenuEntry.setReleaseCoverPath(libraryDAO.loadReleaseCoverPath(track.getReleaseId()));
         trackMenuEntry.setTitle(track.getTitle());
         trackMenuEntry.setArtistNames(Arrays.stream(artists).map(Artist::getName).toArray(String[]::new));
 
@@ -52,6 +53,7 @@ public class MenuEntryService {
             }
             trackMenuEntries[i] = new TrackMenuEntry();
             trackMenuEntries[i].setID(tracks[i].getId());
+            trackMenuEntries[i].setReleaseCoverPath(libraryDAO.loadReleaseCoverPath(tracks[i].getReleaseId()));
             trackMenuEntries[i].setTitle(tracks[i].getTitle());
             trackMenuEntries[i].setArtistNames(Arrays.stream(artists).map(Artist::getName).toArray(String[]::new));
         }

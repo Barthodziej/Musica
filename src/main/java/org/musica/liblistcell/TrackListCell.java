@@ -36,6 +36,7 @@ public class TrackListCell extends ListCell<TrackMenuEntry> {
             //System.out.println("Empty! " + trackMenuEntry + " " + empty);
         }
         else {
+            controller.setReleaseCover(trackMenuEntry.getReleaseCoverPath());
             controller.setTitle(trackMenuEntry.getTitle());
             controller.setArtistNames(String.join(", ", trackMenuEntry.getArtistNames()));
             setGraphic(graphicContainer);

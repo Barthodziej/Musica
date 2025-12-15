@@ -3,11 +3,17 @@ package org.musica.controllers.liblistcell;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.HBox;
 
+import java.io.File;
+
 public class TrackListCellController {
 
+    @FXML
+    public ImageView releaseCoverView;
     @FXML
     public Label title;
     @FXML
@@ -23,6 +29,10 @@ public class TrackListCellController {
     @FXML
     public void handleMouseExit(MouseEvent event) {
         editButton.setVisible(false);
+    }
+
+    public void setReleaseCover(String coverPath) {
+        releaseCoverView.setImage(new Image(new File(coverPath).toURI().toString(), releaseCoverView.getFitWidth(), releaseCoverView.getFitHeight(), false, true));
     }
 
     public void setTitle(String title) {

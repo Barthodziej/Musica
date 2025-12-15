@@ -3,6 +3,7 @@ package org.musica.dto;
 public class TrackMenuEntry {
 
     private String ID;
+    private String releaseCoverPath;
     private String title;
     private String[] artistNames;
 
@@ -12,6 +13,14 @@ public class TrackMenuEntry {
 
     public void setID(String ID) {
         this.ID = ID;
+    }
+
+    public String getReleaseCoverPath() {
+        return releaseCoverPath;
+    }
+
+    public void setReleaseCoverPath(String releaseCoverPath) {
+        this.releaseCoverPath = releaseCoverPath;
     }
 
     public String getTitle() {
