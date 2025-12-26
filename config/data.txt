@@ -1,1 +1,1 @@
-/home/Bartodziej/Dokumenty/Music Player/ExampleBMD/Library
+/home/Bartodziej/Projects/MusicaLibrary/Library

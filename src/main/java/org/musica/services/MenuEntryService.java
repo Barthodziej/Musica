@@ -10,6 +10,8 @@ import org.musica.entities.Artist;
 import org.musica.entities.Release;
 import org.musica.entities.Track;
 
+import java.nio.file.Path;
+
 import java.util.Arrays;
 
 public class MenuEntryService {
@@ -71,7 +73,7 @@ public class MenuEntryService {
             artists[i] = libraryDAO.loadArtist(artistIDs[i]);
         }
 
-        String coverPath = libraryDAO.loadReleaseCoverPath(releaseID);
+        Path coverPath = libraryDAO.loadReleaseCoverPath(releaseID);
 
         ReleaseMenuEntry releaseMenuEntry = new ReleaseMenuEntry();
         releaseMenuEntry.setID(release.getId());
@@ -91,7 +93,7 @@ public class MenuEntryService {
         ReleaseMenuEntry[] releaseMenuEntries = new ReleaseMenuEntry[releases.length];
         for (int i = 0; i < releases.length; i++) {
             Album album = libraryDAO.loadAlbum(releases[i].getAlbumId());
-            String coverPath = libraryDAO.loadReleaseCoverPath(releases[i].getId());
+            Path coverPath = libraryDAO.loadReleaseCoverPath(releases[i].getId());
             String[] artistIDs = album.getArtistIds();
             Artist[] artists = new Artist[artistIDs.length];
             for (int j = 0; j < artistIDs.length; j++) {
@@ -110,7 +112,7 @@ public class MenuEntryService {
     public AlbumMenuEntry getAlbumMenuEntry(String albumID) throws Exception {
 
         Album album = libraryDAO.loadAlbum(albumID);
-        String coverPath = libraryDAO.loadAlbumCoverPath(albumID);
+        Path coverPath = libraryDAO.loadAlbumCoverPath(albumID);
 
         String[] artistIDs = album.getArtistIds();
         Artist[] artists = new Artist[artistIDs.length];
@@ -134,8 +136,8 @@ public class MenuEntryService {
 
         AlbumMenuEntry[] albumMenuEntries = new AlbumMenuEntry[albums.length];
         for (int i = 0; i < albums.length; i++) {
-            String coverPath = libraryDAO.loadAlbumCoverPath(albums[i].getId());
-            String[] artistIDs = albums[i].getArtistIds();
+            Path coverPath = libraryDAO.loadAlbumCoverPath(albums[i].getId());
+	    String[] artistIDs = albums[i].getArtistIds();
             Artist[] artists = new Artist[artistIDs.length];
             for (int j = 0; j < artistIDs.length; j++) {
                 artists[j] = libraryDAO.loadArtist(artistIDs[j]);
@@ -152,7 +154,7 @@ public class MenuEntryService {
     public ArtistMenuEntry getArtistMenuEntry(String artistID) throws Exception {
 
         Artist artist = libraryDAO.loadArtist(artistID);
-        String avatarPath = libraryDAO.loadArtistAvatarPath(artistID);
+        Path avatarPath = libraryDAO.loadArtistAvatarPath(artistID);
 
         String name = artist.getName();
         int albumsCount = artist.getAlbumIds().length;
@@ -160,7 +162,7 @@ public class MenuEntryService {
         ArtistMenuEntry artistMenuEntry = new ArtistMenuEntry();
 
         artistMenuEntry.setID(artist.getId());
-        artistMenuEntry.setAvatarPath(artist.isHasAvatar() ? avatarPath : "");
+        if (artist.isHasAvatar()) artistMenuEntry.setAvatarPath(avatarPath);
         artistMenuEntry.setName(name);
         artistMenuEntry.setAlbumsCount(albumsCount);
 
@@ -175,14 +177,14 @@ public class MenuEntryService {
         ArtistMenuEntry[] artistMenuEntries = new ArtistMenuEntry[artists.length];
         for (int i = 0; i < artists.length; i++) {
 
-            String avatarPath = libraryDAO.loadArtistAvatarPath(artists[i].getId());
+            Path avatarPath = libraryDAO.loadArtistAvatarPath(artists[i].getId());
             String name = artists[i].getName();
             int albumsCount = artists[i].getAlbumIds().length;
 
             artistMenuEntries[i] = new ArtistMenuEntry();
 
             artistMenuEntries[i].setID(artists[i].getId());
-            artistMenuEntries[i].setAvatarPath(artists[i].isHasAvatar() ? avatarPath : "");
+	    if (artists[i].isHasAvatar()) artistMenuEntries[i].setAvatarPath(avatarPath);
             artistMenuEntries[i].setName(name);
             artistMenuEntries[i].setAlbumsCount(albumsCount);
         }

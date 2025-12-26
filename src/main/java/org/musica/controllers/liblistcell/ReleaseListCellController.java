@@ -9,6 +9,7 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.HBox;
 
 import java.io.File;
+import java.nio.file.Path;
 
 public class ReleaseListCellController {
 
@@ -33,8 +34,8 @@ public class ReleaseListCellController {
         editButton.setVisible(false);
     }
 
-    public void setCover(String coverPath) {
-        coverView.setImage(new Image(new File(coverPath).toURI().toString(), coverView.getFitWidth(), coverView.getFitHeight(), false, true));
+    public void setCover(Path coverPath) {
+        coverView.setImage(new Image(coverPath.toFile().toURI().toString(), coverView.getFitWidth(), coverView.getFitHeight(), false, true));
     }
 
     public void setTitle(String title) {

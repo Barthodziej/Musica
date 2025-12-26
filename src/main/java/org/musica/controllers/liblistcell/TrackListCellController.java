@@ -9,6 +9,7 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.HBox;
 
 import java.io.File;
+import java.nio.file.Path;
 
 public class TrackListCellController {
 
@@ -31,8 +32,8 @@ public class TrackListCellController {
         editButton.setVisible(false);
     }
 
-    public void setReleaseCover(String coverPath) {
-        releaseCoverView.setImage(new Image(new File(coverPath).toURI().toString(), releaseCoverView.getFitWidth(), releaseCoverView.getFitHeight(), false, true));
+    public void setReleaseCover(Path coverPath) {
+        releaseCoverView.setImage(new Image(coverPath.toFile().toURI().toString(), releaseCoverView.getFitWidth(), releaseCoverView.getFitHeight(), false, true));
     }
 
     public void setTitle(String title) {

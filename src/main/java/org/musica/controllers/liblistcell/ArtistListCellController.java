@@ -9,6 +9,7 @@ import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.HBox;
 
 import java.io.File;
+import java.nio.file.Path;
 
 public class ArtistListCellController {
 
@@ -31,8 +32,8 @@ public class ArtistListCellController {
         editButton.setVisible(false);
     }
 
-    public void setAvatar(String avatarPath) {
-        avatarView.setImage(new Image(new File(avatarPath).toURI().toString(), avatarView.getFitWidth(), avatarView.getFitHeight(), false, true));
+    public void setAvatar(Path avatarPath) {
+        avatarView.setImage(new Image(avatarPath.toFile().toURI().toString(), avatarView.getFitWidth(), avatarView.getFitHeight(), false, true));
     }
 
     public void setName(String name) {

@@ -1,16 +1,18 @@
 package org.musica.database.filesystemlibrary;
 
+import java.nio.file.Path;
+
 public interface LibraryPathProvider {
-    String getArtistListPath() throws Exception;
-    String getAlbumListPath() throws Exception;
-    String getReleaseListPath() throws Exception;
-    String getTrackListPath() throws Exception;
-    String getArtistDataPath(String artistId) throws Exception;
-    String getArtistAvatarPath(String artistId) throws Exception;
-    String getAlbumDataPath(String albumId) throws Exception;
-    String getAlbumCoverPath(String albumId) throws Exception;
-    String getReleaseDataPath(String releaseId) throws Exception;
-    String getReleaseCoverPath(String releaseId) throws Exception;
-    String getTrackDataPath(String trackId) throws Exception;
-    String getTrackLyricsPath(String trackId) throws Exception;
+     Path getArtistListPath() throws Exception;
+     Path getAlbumListPath() throws Exception;
+     Path getReleaseListPath() throws Exception;
+     Path getTrackListPath() throws Exception;
+     Path getArtistDataPath(String artistId) throws Exception;
+     Path getArtistAvatarPath(String artistId) throws Exception;
+     Path getAlbumDataPath(String albumId) throws Exception;
+     Path getAlbumCoverPath(String albumId) throws Exception;
+     Path getReleaseDataPath(String releaseId) throws Exception;
+     Path getReleaseCoverPath(String releaseId) throws Exception;
+     Path getTrackDataPath(String trackId) throws Exception;
+     Path getTrackLyricsPath(String trackId) throws Exception;
 }

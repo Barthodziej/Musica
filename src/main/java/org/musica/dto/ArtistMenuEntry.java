@@ -1,9 +1,11 @@
 package org.musica.dto;
 
+import java.nio.file.Path;
+
 public class ArtistMenuEntry {
 
     private String ID;
-    private String avatarPath;
+    private Path avatarPath;
     private String name;
     private int albumsCount;
     
@@ -15,11 +17,11 @@ public class ArtistMenuEntry {
         this.ID = ID;
     }
 
-    public String getAvatarPath() {
+    public Path getAvatarPath() {
         return avatarPath;
     }
 
-    public void setAvatarPath(String avatarPath) {
+    public void setAvatarPath(Path avatarPath) {
         this.avatarPath = avatarPath;
     }
 

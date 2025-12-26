@@ -1,6 +1,8 @@
 package org.musica.database.filesystemlibrary;
 
 import org.musica.config.Config;
+import java.nio.file.Paths;
+import java.nio.file.Path;
 
 public class LibraryPathProviderImpl implements LibraryPathProvider {
 
@@ -10,79 +12,95 @@ public class LibraryPathProviderImpl implements LibraryPathProvider {
         this.config = config;
     }
 
-    private String getArtistsPath() throws Exception {
-        return config.loadDataConfig() + "/Artists";
+    private Path getArtistsPath() throws Exception {
+        return Paths.get(config.loadDataConfig()).resolve("Artists");
     }
 
-    private String getAlbumsPath() throws Exception {
-        return config.loadDataConfig() + "/Albums";
+    private Path getArtistPath(String artistID) throws Exception {
+        return getArtistsPath().resolve(artistID);
     }
 
-    private String getReleasesPath() throws Exception {
-        return config.loadDataConfig() + "/Releases";
+    private Path getAlbumsPath() throws Exception {
+        return Paths.get(config.loadDataConfig()).resolve("Albums");
     }
 
-    private String getTracksPath() throws Exception {
-        return config.loadDataConfig() + "/Tracks";
+    private Path getAlbumPath(String albumID) throws Exception {
+        return getAlbumsPath().resolve(albumID);
     }
 
-    @Override
-    public String getArtistListPath() throws Exception {
-        return getArtistsPath() + "/list.txt";
+    private Path getReleasesPath() throws Exception {
+        return Paths.get(config.loadDataConfig()).resolve("Releases");
     }
 
-    @Override
-    public String getAlbumListPath() throws Exception {
-        return getAlbumsPath() + "/list.txt";
+    private Path getReleasePath(String releaseID) throws Exception {
+        return getReleasesPath().resolve(releaseID);
     }
 
-    @Override
-    public String getReleaseListPath() throws Exception {
-        return getReleasesPath() + "/list.txt";
+    private Path getTracksPath() throws Exception {
+        return Paths.get(config.loadDataConfig()).resolve("Tracks");
     }
 
-    @Override
-    public String getTrackListPath() throws Exception {
-        return getTracksPath() + "/list.txt";
+    private Path getTrackPath(String trackID) throws Exception {
+        return getTracksPath().resolve(trackID);
     }
 
     @Override
-    public String getArtistDataPath(String artistId) throws Exception {
-        return getArtistsPath() + "/" + artistId + "/data.json";
+    public Path getArtistListPath() throws Exception {
+        return getArtistsPath().resolve("list.txt");
     }
 
     @Override
-    public String getArtistAvatarPath(String artistId) throws Exception {
-        return getArtistsPath() + "/" + artistId + "/avatar.jpg";
+    public Path getAlbumListPath() throws Exception {
+        return getAlbumsPath().resolve("list.txt");
     }
 
     @Override
-    public String getAlbumDataPath(String albumId) throws Exception {
-        return getAlbumsPath() + "/" + albumId + "/data.json";
+    public Path getReleaseListPath() throws Exception {
+        return getReleasesPath().resolve("list.txt");
     }
 
     @Override
-    public String getAlbumCoverPath(String albumId) throws Exception {
-        return getAlbumsPath() + "/" + albumId + "/cover.png";
+    public Path getTrackListPath() throws Exception {
+        return getTracksPath().resolve("list.txt");
     }
 
     @Override
-    public String getReleaseDataPath(String releaseId) throws Exception {
-        return getReleasesPath() + "/" + releaseId + "/data.json";
+    public Path getArtistDataPath(String artistID) throws Exception {
+        return getArtistPath(artistID).resolve("data.json");
     }
 
     @Override
-    public String getReleaseCoverPath(String releaseId) throws Exception {
-        return getReleasesPath() + "/" + releaseId + "/cover.png";
+    public Path getArtistAvatarPath(String artistID) throws Exception {
+        return getArtistPath(artistID).resolve("avatar.jpg");
     }
 
     @Override
-    public String getTrackDataPath(String trackId) throws Exception {
-        return getTracksPath() + "/" + trackId + "/data.json";
+    public Path getAlbumDataPath(String albumID) throws Exception {
+        return getAlbumPath(albumID).resolve("data.json");
     }
 
     @Override
-    public String getTrackLyricsPath(String trackId) throws Exception {
-        return getTracksPath() + "/" + trackId + "/lyrics.lrc";
+    public Path getAlbumCoverPath(String albumID) throws Exception {
+        return getAlbumPath(albumID).resolve("cover.png");
+    }
+
+    @Override
+    public Path getReleaseDataPath(String releaseID) throws Exception {
+        return getReleasePath(releaseID).resolve("data.json");
+    }
+
+    @Override
+    public Path getReleaseCoverPath(String releaseID) throws Exception {
+        return getReleasePath(releaseID).resolve("cover.png");
+    }
+
+    @Override
+    public Path getTrackDataPath(String trackID) throws Exception {
+        return getTrackPath(trackID).resolve("data.json");
+    }
+
+    @Override
+    public Path getTrackLyricsPath(String trackID) throws Exception {
+        return getTrackPath(trackID).resolve("lyrics.lrc");
     }
 }

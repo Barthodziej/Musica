@@ -9,6 +9,7 @@ import org.musica.database.filesystemlibrary.LibraryPathProvider;
 import java.io.File;
 import java.nio.file.Files;
 import java.nio.file.Paths;
+import java.nio.file.Path;
 import java.util.stream.Stream;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -25,9 +26,10 @@ public class FilesystemLibraryDAO implements LibraryDAO {
 
     @Override
     public Artist[] loadArtists() throws Exception {
-        String artistListPath = libraryPathProvider.getArtistListPath();
 
-        try (Stream<String> lines = Files.lines(Paths.get(artistListPath))) {
+        Path artistListPath = libraryPathProvider.getArtistListPath();
+
+        try (Stream<String> lines = Files.lines(artistListPath)) {
 
             String[] artistIDs = lines.toArray(String[]::new);
 
@@ -49,8 +51,8 @@ public class FilesystemLibraryDAO implements LibraryDAO {
     @Override
     public Artist loadArtist(String id) throws Exception {
 
-        String artistDataPath = libraryPathProvider.getArtistDataPath(id);
-        File artistDataFile = new File(artistDataPath);
+        Path artistDataPath = libraryPathProvider.getArtistDataPath(id);
+        File artistDataFile = artistDataPath.toFile();
 
         if (!artistDataFile.exists()) {
             throw new IllegalArgumentException("Artist data directory does not exist.");
@@ -71,9 +73,9 @@ public class FilesystemLibraryDAO implements LibraryDAO {
 
     @Override
     public void saveArtist(Artist artist) throws Exception  {
-        String artistDataPath = libraryPathProvider.getArtistDataPath(artist.getId());
+        Path artistDataPath = libraryPathProvider.getArtistDataPath(artist.getId());
         try {
-            File artistDataFile = new File(artistDataPath);
+            File artistDataFile = artistDataPath.toFile();
             ObjectMapper mapper = new ObjectMapper();
             mapper.writeValue(artistDataFile, artist);
         }
@@ -90,15 +92,16 @@ public class FilesystemLibraryDAO implements LibraryDAO {
     }
 
     @Override
-    public String loadArtistAvatarPath(String artistID) throws Exception {
+    public Path loadArtistAvatarPath(String artistID) throws Exception {
         return libraryPathProvider.getArtistAvatarPath(artistID);
     }
 
     @Override
     public Album[] loadAlbums() throws Exception {
-        String albumListPath = libraryPathProvider.getAlbumListPath();
 
-        try (Stream<String> lines = Files.lines(Paths.get(albumListPath))) {
+        Path albumListPath = libraryPathProvider.getAlbumListPath();
+
+        try (Stream<String> lines = Files.lines(albumListPath)) {
 
             String[] albumIDs = lines.toArray(String[]::new);
 
@@ -120,8 +123,8 @@ public class FilesystemLibraryDAO implements LibraryDAO {
     @Override
     public Album loadAlbum(String id) throws Exception {
 
-        String albumDataPath = libraryPathProvider.getAlbumDataPath(id);
-        File albumDataFile = new File(albumDataPath);
+        Path albumDataPath = libraryPathProvider.getAlbumDataPath(id);
+        File albumDataFile = albumDataPath.toFile();
 
         if (!albumDataFile.exists()) {
             throw new IllegalArgumentException("Album data directory does not exist.");
@@ -142,7 +145,7 @@ public class FilesystemLibraryDAO implements LibraryDAO {
     @Override
     public void saveAlbum(Album album) throws Exception {
         try {
-            File albumDataFile = new File(libraryPathProvider.getAlbumDataPath(album.getId()));
+            File albumDataFile = libraryPathProvider.getAlbumDataPath(album.getId()).toFile();
             ObjectMapper mapper = new ObjectMapper();
             mapper.writeValue(albumDataFile, album);
         }
@@ -159,15 +162,15 @@ public class FilesystemLibraryDAO implements LibraryDAO {
     }
 
     @Override
-    public String loadAlbumCoverPath(String albumID) throws Exception {
+    public Path loadAlbumCoverPath(String albumID) throws Exception {
         return libraryPathProvider.getAlbumCoverPath(albumID);
     }
 
     @Override
     public Release[] loadReleases() throws Exception {
-        String releaseListPath = libraryPathProvider.getReleaseListPath();
+        Path releaseListPath = libraryPathProvider.getReleaseListPath();
 
-        try (Stream<String> lines = Files.lines(Paths.get(releaseListPath))) {
+        try (Stream<String> lines = Files.lines(releaseListPath)) {
 
             String[] releaseIDs = lines.toArray(String[]::new);
 
@@ -189,8 +192,8 @@ public class FilesystemLibraryDAO implements LibraryDAO {
     @Override
     public Release loadRelease(String id) throws Exception {
 
-        String releaseDataPath = libraryPathProvider.getReleaseDataPath(id);
-        File releaseDataFile = new File(releaseDataPath);
+        Path releaseDataPath = libraryPathProvider.getReleaseDataPath(id);
+        File releaseDataFile = releaseDataPath.toFile();
 
         if (!releaseDataFile.exists()) {
             throw new IllegalArgumentException("Release data directory does not exist.");
@@ -210,7 +213,7 @@ public class FilesystemLibraryDAO implements LibraryDAO {
     @Override
     public void saveRelease(Release release) throws Exception {
         try {
-            File releaseDataFile = new File(libraryPathProvider.getReleaseDataPath(release.getId()));
+            File releaseDataFile = libraryPathProvider.getReleaseDataPath(release.getId()).toFile();
             ObjectMapper mapper = new ObjectMapper();
             mapper.writeValue(releaseDataFile, release);
         }
@@ -227,16 +230,16 @@ public class FilesystemLibraryDAO implements LibraryDAO {
     }
 
     @Override
-    public String loadReleaseCoverPath(String releaseID) throws Exception {
+    public Path loadReleaseCoverPath(String releaseID) throws Exception {
         return libraryPathProvider.getReleaseCoverPath(releaseID);
     }
 
     @Override
     public Track[] loadTracks() throws Exception {
 
-        String trackListPath = libraryPathProvider.getTrackListPath();
+        Path trackListPath = libraryPathProvider.getTrackListPath();
 
-        try (Stream<String> lines = Files.lines(Paths.get(trackListPath))) {
+        try (Stream<String> lines = Files.lines(trackListPath)) {
 
             String[] trackIDs = lines.toArray(String[]::new);
 
@@ -258,8 +261,8 @@ public class FilesystemLibraryDAO implements LibraryDAO {
     @Override
     public Track loadTrack(String trackId) throws Exception {
 
-        String trackDataPath = libraryPathProvider.getTrackDataPath(trackId);
-        File trackDataFile = new File(trackDataPath);
+        Path trackDataPath = libraryPathProvider.getTrackDataPath(trackId);
+        File trackDataFile = trackDataPath.toFile();
 
         if (!trackDataFile.exists()) {
             throw new IllegalArgumentException("Track data directory does not exist.");
@@ -278,8 +281,8 @@ public class FilesystemLibraryDAO implements LibraryDAO {
 
     @Override
     public void saveTrack(Track track) throws Exception {
-        String trackDataPath = libraryPathProvider.getTrackDataPath(track.getId());
-        File trackDataFile = new File(trackDataPath);
+        Path trackDataPath = libraryPathProvider.getTrackDataPath(track.getId());
+        File trackDataFile = trackDataPath.toFile();
         if (!trackDataFile.exists()) {
             if (!trackDataFile.getParentFile().exists() && !trackDataFile.getParentFile().mkdirs()) {
                 System.out.println("Couldn't make parent directories!");

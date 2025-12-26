@@ -1,9 +1,11 @@
 package org.musica.dto;
 
+import java.nio.file.Path;
+
 public class AlbumMenuEntry {
 
     private String ID;
-    private String coverPath;
+    private Path coverPath;
     private String title;
     private String[] artistNames;
 
@@ -15,11 +17,11 @@ public class AlbumMenuEntry {
         this.ID = ID;
     }
 
-    public String getCoverPath() {
+    public Path getCoverPath() {
         return coverPath;
     }
 
-    public void setCoverPath(String coverPath) {
+    public void setCoverPath(Path coverPath) {
         this.coverPath = coverPath;
     }
 

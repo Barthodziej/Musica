@@ -1,9 +1,11 @@
 package org.musica.dto;
 
+import java.nio.file.Path;
+
 public class TrackMenuEntry {
 
     private String ID;
-    private String releaseCoverPath;
+    private Path releaseCoverPath;
     private String title;
     private String[] artistNames;
 
@@ -15,11 +17,11 @@ public class TrackMenuEntry {
         this.ID = ID;
     }
 
-    public String getReleaseCoverPath() {
+    public Path getReleaseCoverPath() {
         return releaseCoverPath;
     }
 
-    public void setReleaseCoverPath(String releaseCoverPath) {
+    public void setReleaseCoverPath(Path releaseCoverPath) {
         this.releaseCoverPath = releaseCoverPath;
     }
 
